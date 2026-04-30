@@ -1,0 +1,275 @@
+{
+  "groups": [
+    {
+      "name": "sip",
+      "type": "com.genersoft.iot.vmp.conf.SipConfig",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig"
+    },
+    {
+      "name": "user-settings",
+      "type": "com.genersoft.iot.vmp.conf.UserSetting",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting"
+    },
+    {
+      "name": "version",
+      "type": "com.genersoft.iot.vmp.conf.VersionConfig",
+      "sourceType": "com.genersoft.iot.vmp.conf.VersionConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sip.alarm",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "sip.domain",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig"
+    },
+    {
+      "name": "sip.id",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig"
+    },
+    {
+      "name": "sip.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig"
+    },
+    {
+      "name": "sip.password",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig"
+    },
+    {
+      "name": "sip.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig"
+    },
+    {
+      "name": "sip.ptz-speed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig",
+      "defaultValue": 50
+    },
+    {
+      "name": "sip.register-time-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig",
+      "defaultValue": 120
+    },
+    {
+      "name": "sip.show-ip",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.SipConfig"
+    },
+    {
+      "name": "user-settings.allowed-origins",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting"
+    },
+    {
+      "name": "user-settings.auto-apply-play",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.broadcast-for-platform",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": "UDP"
+    },
+    {
+      "name": "user-settings.civil-code-file",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": "classpath:civilCode.csv"
+    },
+    {
+      "name": "user-settings.device-status-notify",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.doc-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.gb-device-online",
+      "type": "java.lang.Integer",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": 1
+    },
+    {
+      "name": "user-settings.interface-authentication",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.interface-authentication-excludes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting"
+    },
+    {
+      "name": "user-settings.log-in-database",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.max-notify-count-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": 100000
+    },
+    {
+      "name": "user-settings.platform-play-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": 20000
+    },
+    {
+      "name": "user-settings.play-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": 10000
+    },
+    {
+      "name": "user-settings.push-authority",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.record-push-live",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.record-sip",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.refuse-channel-status-channel-form-notify",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.register-again-after-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": 60
+    },
+    {
+      "name": "user-settings.register-keep-int-dialog",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.save-position-history",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.send-to-platforms-when-id-lost",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.senior-sdp",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.server-id",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": "000000"
+    },
+    {
+      "name": "user-settings.sip-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.sip-use-source-ip-as-remote-address",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.sql-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.stream-on-demand",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.sync-channel-on-device-online",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.third-party-g-b-id-reg",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": "[\\s\\S]*"
+    },
+    {
+      "name": "user-settings.use-custom-ssrc-for-parent-invite",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": true
+    },
+    {
+      "name": "user-settings.use-pushing-as-status",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "user-settings.use-source-ip-as-stream-ip",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.genersoft.iot.vmp.conf.UserSetting",
+      "defaultValue": false
+    },
+    {
+      "name": "version.artifact-id",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.VersionConfig"
+    },
+    {
+      "name": "version.description",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.VersionConfig"
+    },
+    {
+      "name": "version.version",
+      "type": "java.lang.String",
+      "sourceType": "com.genersoft.iot.vmp.conf.VersionConfig"
+    }
+  ],
+  "hints": []
+}

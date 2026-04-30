@@ -1,0 +1,1005 @@
+2025-11-04 00:00:00.016 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/00-00-18-0.mp4
+2025-11-04 00:00:00.017 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/00-00-18-0.mp4
+2025-11-04 00:00:00.025 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/00-01-47-0.mp4
+2025-11-04 00:00:00.027 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/00-01-31-0.mp4
+2025-11-04 00:00:00.032 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/00-19-50-0.mp4
+2025-11-04 00:00:00.038 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/00-30-21-0.mp4
+2025-11-04 00:00:00.041 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/00-30-44-0.mp4
+2025-11-04 00:00:00.047 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/00-31-34-0.mp4
+2025-11-04 00:00:00.052 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/00-32-11-0.mp4
+2025-11-04 00:00:00.061 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/00-31-50-0.mp4
+2025-11-04 00:00:00.069 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/01-00-22-0.mp4
+2025-11-04 00:00:00.070 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/01-00-22-0.mp4
+2025-11-04 00:00:00.072 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/01-01-53-0.mp4
+2025-11-04 00:00:00.077 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/01-03-23-0.mp4
+2025-11-04 00:00:00.081 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/01-01-38-0.mp4
+2025-11-04 00:00:00.086 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000012_34020000001320000001/2025-10-27/01-14-23-0.mp4
+2025-11-04 00:00:00.091 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/01-14-48-0.mp4
+2025-11-04 00:00:00.105 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/01-20-13-0.mp4
+2025-11-04 00:00:00.136 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/01-24-13-0.mp4
+2025-11-04 00:00:00.142 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/01-26-26-0.mp4
+2025-11-04 00:00:00.145 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/01-30-22-0.mp4
+2025-11-04 00:00:00.152 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/01-30-22-0.mp4
+2025-11-04 00:00:00.156 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/01-31-46-0.mp4
+2025-11-04 00:00:00.165 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/01-31-32-0.mp4
+2025-11-04 00:00:00.170 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/01-32-20-0.mp4
+2025-11-04 00:00:00.173 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/02-00-15-0.mp4
+2025-11-04 00:00:00.179 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/02-00-15-0.mp4
+2025-11-04 00:00:00.189 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/02-01-23-0.mp4
+2025-11-04 00:00:00.196 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/02-01-39-0.mp4
+2025-11-04 00:00:00.200 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/02-30-16-0.mp4
+2025-11-04 00:00:00.206 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/02-30-15-0.mp4
+2025-11-04 00:00:00.218 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/02-31-24-0.mp4
+2025-11-04 00:00:00.226 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/02-31-39-0.mp4
+2025-11-04 00:00:00.231 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/02-38-16-0.mp4
+2025-11-04 00:00:00.235 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/03-00-19-0.mp4
+2025-11-04 00:00:00.242 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/03-00-19-0.mp4
+2025-11-04 00:00:00.247 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/03-01-42-0.mp4
+2025-11-04 00:00:00.258 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/03-01-28-0.mp4
+2025-11-04 00:00:00.263 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/03-02-17-0.mp4
+2025-11-04 00:00:00.268 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/03-08-32-0.mp4
+2025-11-04 00:00:00.271 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/03-30-24-0.mp4
+2025-11-04 00:00:00.279 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/03-30-23-0.mp4
+2025-11-04 00:00:00.299 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/03-31-33-0.mp4
+2025-11-04 00:00:00.316 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/03-31-47-0.mp4
+2025-11-04 00:00:00.331 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/03-38-16-0.mp4
+2025-11-04 00:00:00.335 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/04-00-17-0.mp4
+2025-11-04 00:00:00.342 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/04-00-17-0.mp4
+2025-11-04 00:00:00.346 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/04-01-42-0.mp4
+2025-11-04 00:00:00.356 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/04-01-26-0.mp4
+2025-11-04 00:00:00.361 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/04-02-16-0.mp4
+2025-11-04 00:00:00.366 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/04-08-16-0.mp4
+2025-11-04 00:00:00.369 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/04-30-21-0.mp4
+2025-11-04 00:00:00.375 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/04-30-21-0.mp4
+2025-11-04 00:00:00.382 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/04-31-29-0.mp4
+2025-11-04 00:00:00.389 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/04-31-45-0.mp4
+2025-11-04 00:00:00.393 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/04-32-17-0.mp4
+2025-11-04 00:00:00.397 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/04-38-16-0.mp4
+2025-11-04 00:00:00.401 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/05-00-14-0.mp4
+2025-11-04 00:00:00.408 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/05-00-14-0.mp4
+2025-11-04 00:00:00.412 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/05-01-38-0.mp4
+2025-11-04 00:00:00.426 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/05-01-23-0.mp4
+2025-11-04 00:00:00.430 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/05-02-12-0.mp4
+2025-11-04 00:00:00.435 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/05-08-16-0.mp4
+2025-11-04 00:00:00.438 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/05-30-18-0.mp4
+2025-11-04 00:00:00.445 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/05-30-18-0.mp4
+2025-11-04 00:00:00.449 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/05-31-41-0.mp4
+2025-11-04 00:00:00.458 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/05-31-26-0.mp4
+2025-11-04 00:00:00.463 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/05-32-15-0.mp4
+2025-11-04 00:00:00.466 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/05-38-31-0.mp4
+2025-11-04 00:00:00.470 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/06-00-21-0.mp4
+2025-11-04 00:00:00.477 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/06-00-21-0.mp4
+2025-11-04 00:00:00.488 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/06-01-30-0.mp4
+2025-11-04 00:00:00.495 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/06-01-44-0.mp4
+2025-11-04 00:00:00.498 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/06-30-24-0.mp4
+2025-11-04 00:00:00.504 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/06-30-24-0.mp4
+2025-11-04 00:00:00.515 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/06-31-32-0.mp4
+2025-11-04 00:00:00.522 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/06-31-48-0.mp4
+2025-11-04 00:00:00.525 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/07-00-17-0.mp4
+2025-11-04 00:00:00.532 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/07-00-16-0.mp4
+2025-11-04 00:00:00.534 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/07-00-42-0.mp4
+2025-11-04 00:00:00.539 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/07-01-12-0.mp4
+2025-11-04 00:00:00.544 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/07-01-53-0.mp4
+2025-11-04 00:00:00.551 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/07-01-35-0.mp4
+2025-11-04 00:00:00.554 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/07-30-22-0.mp4
+2025-11-04 00:00:00.560 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/07-30-22-0.mp4
+2025-11-04 00:00:00.562 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/07-30-47-0.mp4
+2025-11-04 00:00:00.568 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/07-31-17-0.mp4
+2025-11-04 00:00:00.576 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/07-31-40-0.mp4
+2025-11-04 00:00:00.579 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/08-00-16-0.mp4
+2025-11-04 00:00:00.586 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/08-00-16-0.mp4
+2025-11-04 00:00:00.589 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/08-00-39-0.mp4
+2025-11-04 00:00:00.595 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/08-01-09-0.mp4
+2025-11-04 00:00:00.600 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/08-01-50-0.mp4
+2025-11-04 00:00:00.609 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/08-01-33-0.mp4
+2025-11-04 00:00:00.618 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/08-57-44-0.mp4
+2025-11-04 00:00:00.631 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/09-00-01-0.mp4
+2025-11-04 00:00:00.638 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/09-08-21-0.mp4
+2025-11-04 00:00:00.644 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/09-08-24-0.mp4
+2025-11-04 00:00:00.648 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/09-45-18-0.mp4
+2025-11-04 00:00:00.655 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/09-45-17-0.mp4
+2025-11-04 00:00:00.659 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/09-45-18-0.mp4
+2025-11-04 00:00:00.661 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/09-45-50-0.mp4
+2025-11-04 00:00:00.670 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/09-45-51-0.mp4
+2025-11-04 00:00:00.676 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/09-46-22-0.mp4
+2025-11-04 00:00:00.683 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/10-00-23-0.mp4
+2025-11-04 00:00:00.686 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/10-00-23-0.mp4
+2025-11-04 00:00:00.690 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/10-00-24-0.mp4
+2025-11-04 00:00:00.695 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/10-00-57-0.mp4
+2025-11-04 00:00:00.703 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/10-01-48-0.mp4
+2025-11-04 00:00:00.707 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/10-11-52-0.mp4
+2025-11-04 00:00:00.714 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/10-11-52-0.mp4
+2025-11-04 00:00:00.718 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/10-11-54-0.mp4
+2025-11-04 00:00:00.727 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/10-12-25-0.mp4
+2025-11-04 00:00:00.734 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/10-13-18-0.mp4
+2025-11-04 00:00:00.737 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/10-30-23-0.mp4
+2025-11-04 00:00:00.745 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/10-30-23-0.mp4
+2025-11-04 00:00:00.749 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/10-30-23-0.mp4
+2025-11-04 00:00:00.754 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/10-30-53-0.mp4
+2025-11-04 00:00:00.758 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/10-31-34-0.mp4
+2025-11-04 00:00:00.765 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/10-32-01-0.mp4
+2025-11-04 00:00:00.768 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/11-00-20-0.mp4
+2025-11-04 00:00:00.775 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/11-00-20-0.mp4
+2025-11-04 00:00:00.779 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/11-00-21-0.mp4
+2025-11-04 00:00:00.784 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/11-00-52-0.mp4
+2025-11-04 00:00:00.789 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/11-01-31-0.mp4
+2025-11-04 00:00:00.795 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/11-01-59-0.mp4
+2025-11-04 00:00:00.800 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/11-08-28-0.mp4
+2025-11-04 00:00:00.806 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/11-08-46-0.mp4
+2025-11-04 00:00:00.810 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/11-30-17-0.mp4
+2025-11-04 00:00:00.816 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/11-30-17-0.mp4
+2025-11-04 00:00:00.820 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/11-30-17-0.mp4
+2025-11-04 00:00:00.825 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/11-30-54-0.mp4
+2025-11-04 00:00:00.829 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/11-31-43-0.mp4
+2025-11-04 00:00:00.834 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/11-32-08-0.mp4
+2025-11-04 00:00:00.837 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/12-00-23-0.mp4
+2025-11-04 00:00:00.844 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/12-00-22-0.mp4
+2025-11-04 00:00:00.848 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/12-00-23-0.mp4
+2025-11-04 00:00:00.853 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/12-00-52-0.mp4
+2025-11-04 00:00:00.857 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/12-01-41-0.mp4
+2025-11-04 00:00:00.862 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/12-02-17-0.mp4
+2025-11-04 00:00:00.867 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/12-08-06-0.mp4
+2025-11-04 00:00:00.873 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/12-08-03-0.mp4
+2025-11-04 00:00:00.876 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000008_34020000001320000001/2025-10-27/12-10-40-0.mp4
+2025-11-04 00:00:00.879 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/12-10-59-0.mp4
+2025-11-04 00:00:00.882 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/12-30-17-0.mp4
+2025-11-04 00:00:00.889 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/12-30-16-0.mp4
+2025-11-04 00:00:00.893 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/12-30-17-0.mp4
+2025-11-04 00:00:00.898 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/12-30-47-0.mp4
+2025-11-04 00:00:00.903 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/12-31-28-0.mp4
+2025-11-04 00:00:00.904 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/12-31-55-0.mp4
+2025-11-04 00:00:00.905 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/12-32-37-0.mp4
+2025-11-04 00:00:00.908 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/13-00-19-0.mp4
+2025-11-04 00:00:00.916 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/13-00-18-0.mp4
+2025-11-04 00:00:00.917 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/13-02-22-0.mp4
+2025-11-04 00:00:00.922 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/13-03-41-0.mp4
+2025-11-04 00:00:00.926 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/13-04-20-0.mp4
+2025-11-04 00:00:00.930 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/13-30-20-0.mp4
+2025-11-04 00:00:00.936 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/13-30-19-0.mp4
+2025-11-04 00:00:00.939 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/13-30-20-0.mp4
+2025-11-04 00:00:00.941 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/13-30-50-0.mp4
+2025-11-04 00:00:00.946 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/13-32-02-0.mp4
+2025-11-04 00:00:00.974 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/13-32-16-0.mp4
+2025-11-04 00:00:00.981 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/14-00-16-0.mp4
+2025-11-04 00:00:00.982 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/14-00-16-0.mp4
+2025-11-04 00:00:00.983 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/14-00-16-0.mp4
+2025-11-04 00:00:00.987 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/14-01-14-0.mp4
+2025-11-04 00:00:00.992 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/14-02-03-0.mp4
+2025-11-04 00:00:00.997 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/14-02-17-0.mp4
+2025-11-04 00:00:00.999 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/14-08-38-0.mp4
+2025-11-04 00:00:01.005 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/14-08-34-0.mp4
+2025-11-04 00:00:01.021 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/14-26-31-0.mp4
+2025-11-04 00:00:01.024 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/14-30-19-0.mp4
+2025-11-04 00:00:01.031 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/14-30-19-0.mp4
+2025-11-04 00:00:01.032 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/14-30-19-0.mp4
+2025-11-04 00:00:01.037 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/14-31-07-0.mp4
+2025-11-04 00:00:01.038 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/14-31-41-0.mp4
+2025-11-04 00:00:01.043 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/14-32-15-0.mp4
+2025-11-04 00:00:01.071 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/14-36-59-0.mp4
+2025-11-04 00:00:01.090 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/14-46-18-0.mp4
+2025-11-04 00:00:01.094 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/14-50-27-0.mp4
+2025-11-04 00:00:01.103 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/15-00-24-0.mp4
+2025-11-04 00:00:01.107 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/15-00-25-0.mp4
+2025-11-04 00:00:01.108 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/15-00-24-0.mp4
+2025-11-04 00:00:01.113 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/15-01-24-0.mp4
+2025-11-04 00:00:01.118 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/15-02-08-0.mp4
+2025-11-04 00:00:01.123 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/15-02-34-0.mp4
+2025-11-04 00:00:01.126 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/15-30-17-0.mp4
+2025-11-04 00:00:01.132 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/15-30-17-0.mp4
+2025-11-04 00:00:01.133 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/15-30-32-0.mp4
+2025-11-04 00:00:01.134 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/15-31-41-0.mp4
+2025-11-04 00:00:01.136 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/15-32-13-0.mp4
+2025-11-04 00:00:01.139 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/16-00-23-0.mp4
+2025-11-04 00:00:01.146 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/16-00-23-0.mp4
+2025-11-04 00:00:01.150 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/16-00-24-0.mp4
+2025-11-04 00:00:01.155 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/16-00-56-0.mp4
+2025-11-04 00:00:01.160 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/16-01-33-0.mp4
+2025-11-04 00:00:01.165 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/16-02-00-0.mp4
+2025-11-04 00:00:01.170 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/16-34-34-0.mp4
+2025-11-04 00:00:01.176 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/16-35-37-0.mp4
+2025-11-04 00:00:01.181 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/16-38-40-0.mp4
+2025-11-04 00:00:01.184 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/17-00-19-0.mp4
+2025-11-04 00:00:01.191 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/17-00-19-0.mp4
+2025-11-04 00:00:01.192 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/17-00-23-0.mp4
+2025-11-04 00:00:01.193 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/17-01-26-0.mp4
+2025-11-04 00:00:01.195 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/17-02-27-0.mp4
+2025-11-04 00:00:01.198 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/17-30-22-0.mp4
+2025-11-04 00:00:01.205 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/17-30-22-0.mp4
+2025-11-04 00:00:01.206 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/17-30-31-0.mp4
+2025-11-04 00:00:01.214 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/17-32-18-0.mp4
+2025-11-04 00:00:01.215 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/17-31-32-0.mp4
+2025-11-04 00:00:01.222 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/18-00-17-0.mp4
+2025-11-04 00:00:01.226 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/18-00-17-0.mp4
+2025-11-04 00:00:01.227 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/18-00-18-0.mp4
+2025-11-04 00:00:01.238 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/18-01-30-0.mp4
+2025-11-04 00:00:01.244 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/18-02-19-0.mp4
+2025-11-04 00:00:01.247 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/18-30-18-0.mp4
+2025-11-04 00:00:01.254 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/18-30-18-0.mp4
+2025-11-04 00:00:01.258 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/18-30-19-0.mp4
+2025-11-04 00:00:01.263 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/18-30-50-0.mp4
+2025-11-04 00:00:01.267 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/18-31-29-0.mp4
+2025-11-04 00:00:01.269 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/18-31-56-0.mp4
+2025-11-04 00:00:01.272 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/19-00-15-0.mp4
+2025-11-04 00:00:01.278 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/19-00-15-0.mp4
+2025-11-04 00:00:01.282 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000020_34020000001320000001/2025-10-27/19-00-16-0.mp4
+2025-11-04 00:00:01.287 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/19-00-47-0.mp4
+2025-11-04 00:00:01.288 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/19-01-26-0.mp4
+2025-11-04 00:00:01.289 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/19-02-12-0.mp4
+2025-11-04 00:00:01.290 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/19-30-22-0.mp4
+2025-11-04 00:00:01.292 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/19-31-21-0.mp4
+2025-11-04 00:00:01.296 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/19-30-24-0.mp4
+2025-11-04 00:00:01.300 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/19-32-58-0.mp4
+2025-11-04 00:00:01.302 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/19-33-37-0.mp4
+2025-11-04 00:00:01.302 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000012_34020000001320000001/2025-10-27/19-35-13-0.mp4
+2025-11-04 00:00:01.306 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000008_34020000001320000001/2025-10-27/19-37-53-0.mp4
+2025-11-04 00:00:01.309 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/19-38-05-0.mp4
+2025-11-04 00:00:01.317 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/19-41-10-0.mp4
+2025-11-04 00:00:01.318 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000012_34020000001320000001/2025-10-27/19-42-36-0.mp4
+2025-11-04 00:00:01.322 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/20-00-19-0.mp4
+2025-11-04 00:00:01.329 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/20-00-19-0.mp4
+2025-11-04 00:00:01.331 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/20-00-43-0.mp4
+2025-11-04 00:00:01.337 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/20-01-13-0.mp4
+2025-11-04 00:00:01.338 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/20-01-54-0.mp4
+2025-11-04 00:00:01.339 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/20-01-37-0.mp4
+2025-11-04 00:00:01.347 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/20-30-24-0.mp4
+2025-11-04 00:00:01.348 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/20-30-23-0.mp4
+2025-11-04 00:00:01.351 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/20-30-55-0.mp4
+2025-11-04 00:00:01.355 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/20-31-38-0.mp4
+2025-11-04 00:00:01.360 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/20-32-12-0.mp4
+2025-11-04 00:00:01.369 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/20-31-40-0.mp4
+2025-11-04 00:00:01.370 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/20-38-17-0.mp4
+2025-11-04 00:00:01.371 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000012_34020000001320000001/2025-10-27/20-57-03-0.mp4
+2025-11-04 00:00:01.377 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/21-00-21-0.mp4
+2025-11-04 00:00:01.379 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/21-00-51-0.mp4
+2025-11-04 00:00:01.380 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/21-00-21-0.mp4
+2025-11-04 00:00:01.383 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/21-01-38-0.mp4
+2025-11-04 00:00:01.390 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/21-02-03-0.mp4
+2025-11-04 00:00:01.391 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/21-01-32-0.mp4
+2025-11-04 00:00:01.394 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/21-30-19-0.mp4
+2025-11-04 00:00:01.397 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/21-30-43-0.mp4
+2025-11-04 00:00:01.398 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/21-30-21-0.mp4
+2025-11-04 00:00:01.403 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/21-31-22-0.mp4
+2025-11-04 00:00:01.407 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/21-31-36-0.mp4
+2025-11-04 00:00:01.411 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/21-32-00-0.mp4
+2025-11-04 00:00:01.415 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/21-32-18-0.mp4
+2025-11-04 00:00:01.421 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/22-00-17-0.mp4
+2025-11-04 00:00:01.422 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/22-00-16-0.mp4
+2025-11-04 00:00:01.424 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/22-00-47-0.mp4
+2025-11-04 00:00:01.432 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/22-01-35-0.mp4
+2025-11-04 00:00:01.433 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/22-01-17-0.mp4
+2025-11-04 00:00:01.436 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/22-30-15-0.mp4
+2025-11-04 00:00:01.439 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/22-30-39-0.mp4
+2025-11-04 00:00:01.444 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/22-30-16-0.mp4
+2025-11-04 00:00:01.447 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/22-31-32-0.mp4
+2025-11-04 00:00:01.451 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/22-32-06-0.mp4
+2025-11-04 00:00:01.453 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/22-31-13-0.mp4
+2025-11-04 00:00:01.456 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/23-00-21-0.mp4
+2025-11-04 00:00:01.463 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/23-00-21-0.mp4
+2025-11-04 00:00:01.465 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/23-00-45-0.mp4
+2025-11-04 00:00:01.471 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/23-01-15-0.mp4
+2025-11-04 00:00:01.475 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/23-01-38-0.mp4
+2025-11-04 00:00:01.475 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/23-02-11-0.mp4
+2025-11-04 00:00:01.476 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/23-08-17-0.mp4
+2025-11-04 00:00:01.478 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000012_34020000001320000001/2025-10-27/23-08-31-0.mp4
+2025-11-04 00:00:01.485 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000019_34020000001320000001/2025-10-27/23-30-14-0.mp4
+2025-11-04 00:00:01.486 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/41010500002000000002_34020000001320000002/2025-10-27/23-30-15-0.mp4
+2025-11-04 00:00:01.488 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001110000001_34020000001320000004/2025-10-27/23-30-45-0.mp4
+2025-11-04 00:00:01.490 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000003_34020000001320000001/2025-10-27/23-31-32-0.mp4
+2025-11-04 00:00:01.491 [scheduled-task-pool-122] WARN  com.genersoft.iot.vmp.conf.CloudRecordTimer:67 - [录像文件定时清理] 删除磁盘文件成功： /data/ZLMediaKit/release/linux/Debug/www/record/rtp/34020000001320000006_34020000001320000001/2025-10-27/23-31-15-0.mp4
+2025-11-04 00:00:19.855 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 00:00:19.896 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 00:00:48.851 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 00:01:08.151 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:01:17.188 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:01:26.239 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:01:45.341 [http-nio-65220-exec-22] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 00:02:12.942 [wvp-86] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 00:02:34.990 [ThreadPoolTaskScheduler-282] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 00:02:53.180 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:03:02.282 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:03:11.339 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:03:30.402 [http-nio-65220-exec-15] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 00:11:20.489 [ThreadPoolTaskScheduler-223] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 00:17:31.196 [ThreadPoolTaskScheduler-184] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 00:26:05.532 [ThreadPoolTaskScheduler-300] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 00:30:16.472 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 00:30:16.510 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 00:30:40.089 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 00:31:05.038 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:31:14.075 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:31:23.103 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:31:42.141 [http-nio-65220-exec-24] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 00:32:21.458 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:32:30.509 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:32:39.779 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 00:32:58.861 [http-nio-65220-exec-20] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 00:33:22.560 [ThreadPoolTaskScheduler-139] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 00:48:19.288 [ThreadPoolTaskScheduler-233] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 00:48:46.293 [ThreadPoolTaskScheduler-95] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 01:00:14.815 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 01:00:14.851 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 01:00:38.356 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 01:01:02.637 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:01:11.673 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:01:13.213 [ThreadPoolTaskScheduler-85] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001110000020
+2025-11-04 01:01:20.721 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:01:39.766 [http-nio-65220-exec-18] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 01:01:46.127 [ThreadPoolTaskScheduler-178] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001110000021
+2025-11-04 01:02:19.098 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:02:28.183 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:02:37.239 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:02:56.328 [http-nio-65220-exec-15] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 01:03:14.827 [ThreadPoolTaskScheduler-297] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:510 - [点播超时]， 发送BYE失败 缓存事务信息未找到，device：34020000001110000020 channel: 34020000001320000001 ,stream: 34020000001110000020_34020000001320000001
+2025-11-04 01:03:31.363 [ThreadPoolTaskScheduler-202] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 01:05:17.485 [ThreadPoolTaskScheduler-95] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 01:18:57.900 [ThreadPoolTaskScheduler-215] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 01:30:23.344 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 01:30:23.456 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 01:30:47.149 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 01:30:48.132 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:30:57.183 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:31:06.222 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:31:25.347 [http-nio-65220-exec-21] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 01:31:36.107 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:32:04.803 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:32:13.850 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:32:22.924 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 01:32:31.446 [ThreadPoolTaskScheduler-41] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 01:32:42.024 [http-nio-65220-exec-20] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 01:33:46.020 [ThreadPoolTaskScheduler-298] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 02:00:18.109 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 02:00:18.189 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 02:00:41.766 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 02:00:43.659 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:00:52.696 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:01:01.760 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:01:20.805 [http-nio-65220-exec-24] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 02:02:00.201 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:02:09.267 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:02:18.302 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:02:37.438 [http-nio-65220-exec-22] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 02:03:17.723 [ThreadPoolTaskScheduler-245] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 02:18:46.603 [ThreadPoolTaskScheduler-290] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 02:30:13.502 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 02:30:13.559 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 02:30:30.567 [ThreadPoolTaskScheduler-123] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 02:30:37.285 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 02:30:38.414 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:30:47.482 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:30:56.528 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:31:15.593 [http-nio-65220-exec-18] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 02:31:54.962 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:32:04.009 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:32:13.053 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 02:32:32.101 [http-nio-65220-exec-23] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 02:33:40.905 [ThreadPoolTaskScheduler-61] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 02:48:31.713 [ThreadPoolTaskScheduler-182] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 03:00:18.229 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 03:00:18.232 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 03:00:41.998 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 03:00:43.745 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:00:52.779 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:01:01.860 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:01:20.934 [http-nio-65220-exec-17] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 03:02:00.240 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:02:09.302 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:02:18.328 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:02:37.374 [http-nio-65220-exec-17] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 03:03:20.887 [ThreadPoolTaskScheduler-242] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 03:27:21.080 [ThreadPoolTaskScheduler-139] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 03:27:43.044 [ThreadPoolTaskScheduler-110] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000012
+2025-11-04 03:30:23.720 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 03:30:23.724 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 03:30:47.414 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 03:30:49.732 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:30:58.756 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:31:07.784 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:31:26.830 [http-nio-65220-exec-17] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 03:32:06.411 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:32:15.497 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:32:24.551 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 03:32:43.668 [http-nio-65220-exec-15] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 03:33:15.019 [ThreadPoolTaskScheduler-219] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 03:42:06.107 [ThreadPoolTaskScheduler-164] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 04:00:19.703 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 04:00:19.795 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 04:00:43.550 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 04:00:45.819 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:00:54.871 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:01:04.409 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:01:23.468 [http-nio-65220-exec-6] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 04:02:02.609 [wvp-44] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 04:02:02.876 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:02:11.925 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:02:20.984 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:02:40.031 [http-nio-65220-exec-20] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 04:03:30.158 [ThreadPoolTaskScheduler-35] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 04:18:21.248 [ThreadPoolTaskScheduler-94] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 04:30:16.045 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 04:30:16.099 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 04:30:39.867 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 04:30:41.635 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:30:50.693 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:30:59.728 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:31:18.782 [http-nio-65220-exec-18] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 04:31:58.197 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:32:07.247 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:32:16.278 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 04:32:35.323 [http-nio-65220-exec-23] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 04:33:27.207 [ThreadPoolTaskScheduler-236] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 04:48:21.340 [ThreadPoolTaskScheduler-228] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 05:00:26.149 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 05:00:27.351 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 05:00:55.483 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:00:56.644 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 05:01:04.588 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:01:08.388 [ThreadPoolTaskScheduler-124] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，首次注册后未能收到心跳, device：34020000001320000003
+2025-11-04 05:01:13.721 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:01:32.777 [http-nio-65220-exec-18] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 05:02:12.055 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:02:21.141 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:02:29.240 [ThreadPoolTaskScheduler-47] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 05:02:30.186 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:02:49.228 [http-nio-65220-exec-23] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 05:03:22.114 [ThreadPoolTaskScheduler-240] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 05:08:01.070 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:08:01.115 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:08:01.144 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:08:01.226 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:08:01.248 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:08:01.276 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:18:16.186 [ThreadPoolTaskScheduler-152] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 05:30:15.276 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 05:30:15.315 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 05:30:38.937 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 05:30:40.053 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:30:49.077 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:30:58.377 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:31:17.426 [http-nio-65220-exec-9] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 05:31:56.751 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:32:05.787 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:32:14.815 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 05:32:34.424 [http-nio-65220-exec-23] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 05:33:30.422 [ThreadPoolTaskScheduler-253] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 05:36:33.203 [ThreadPoolTaskScheduler-25] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 05:46:45.425 [ThreadPoolTaskScheduler-276] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 05:48:21.594 [ThreadPoolTaskScheduler-238] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 05:51:18.335 [ThreadPoolTaskScheduler-256] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 06:00:20.664 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 06:00:20.760 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 06:00:44.409 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 06:00:45.869 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:00:54.970 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:01:04.253 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:01:23.302 [http-nio-65220-exec-21] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 06:01:30.528 [ThreadPoolTaskScheduler-168] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 06:02:02.338 [wvp-43] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 06:02:02.558 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:02:11.625 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:02:20.685 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:02:39.764 [http-nio-65220-exec-17] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 06:03:18.512 [ThreadPoolTaskScheduler-102] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 06:30:15.820 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 06:30:15.893 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 06:30:39.570 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 06:30:41.871 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:30:50.911 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:30:59.986 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:31:19.028 [http-nio-65220-exec-20] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 06:31:58.671 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:32:07.704 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:32:16.746 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 06:32:35.792 [http-nio-65220-exec-6] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 06:33:27.610 [ThreadPoolTaskScheduler-141] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 06:48:21.757 [ThreadPoolTaskScheduler-68] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 07:00:21.801 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 07:00:21.904 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 07:00:46.771 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 07:00:47.845 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:00:56.870 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:01:05.897 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:01:24.941 [http-nio-65220-exec-17] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 07:02:04.027 [wvp-42] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 07:02:04.359 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:02:13.425 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:02:22.451 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:02:41.494 [http-nio-65220-exec-9] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 07:03:27.708 [ThreadPoolTaskScheduler-161] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 07:18:21.878 [ThreadPoolTaskScheduler-276] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 07:30:17.580 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 07:30:17.610 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 07:30:41.250 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 07:30:43.679 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:30:52.704 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:31:01.784 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:31:20.832 [http-nio-65220-exec-9] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 07:31:59.918 [wvp-53] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 07:32:00.186 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:32:09.223 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:32:18.289 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 07:32:37.350 [http-nio-65220-exec-20] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 07:33:24.827 [ThreadPoolTaskScheduler-229] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 07:35:00.790 [http-nio-65220-exec-9] ERROR c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:346 - [同步通道], 信令发送失败：IO Exception occured while Sending Request
+2025-11-04 07:48:18.945 [ThreadPoolTaskScheduler-256] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 08:00:23.473 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 08:00:23.535 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 08:00:47.010 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 08:00:49.437 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:00:58.478 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:01:07.505 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:01:26.549 [http-nio-65220-exec-23] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 08:02:06.373 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:02:15.398 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:02:24.444 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:02:43.544 [http-nio-65220-exec-23] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 08:03:21.949 [ThreadPoolTaskScheduler-146] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 08:18:22.033 [ThreadPoolTaskScheduler-298] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 08:30:19.550 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 08:30:19.647 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 08:30:43.129 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 08:30:45.814 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:30:54.904 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:31:03.963 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:31:23.012 [http-nio-65220-exec-9] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 08:32:02.278 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:32:11.302 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:32:20.346 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 08:32:39.422 [http-nio-65220-exec-9] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 08:33:34.934 [ThreadPoolTaskScheduler-40] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，首次注册后未能收到心跳, device：34020000001320000005
+2025-11-04 08:52:32.009 [ThreadPoolTaskScheduler-209] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 09:00:15.429 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 09:00:15.582 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 09:00:39.186 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 09:01:06.512 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 09:01:58.885 [ThreadPoolTaskScheduler-262] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 09:02:45.506 [ThreadPoolTaskScheduler-198] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 09:07:20.123 [ThreadPoolTaskScheduler-55] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 09:08:00.332 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 09:08:00.381 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 09:08:00.451 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 09:08:00.476 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 09:08:00.505 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 09:08:00.624 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 09:17:30.370 [ThreadPoolTaskScheduler-221] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 09:18:28.017 [ThreadPoolTaskScheduler-131] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 09:19:33.922 [ThreadPoolTaskScheduler-206] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 09:30:21.904 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 09:30:21.964 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 09:30:45.662 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 09:34:21.966 [ThreadPoolTaskScheduler-68] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 10:00:19.456 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 10:00:19.641 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 10:00:43.322 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 10:02:22.199 [ThreadPoolTaskScheduler-126] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 10:17:07.298 [ThreadPoolTaskScheduler-273] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 10:20:48.295 [ThreadPoolTaskScheduler-209] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 10:30:21.307 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 10:30:21.411 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 10:30:45.179 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 10:35:33.347 [ThreadPoolTaskScheduler-263] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 10:38:00.913 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 10:38:00.942 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 10:38:01.017 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 10:38:01.043 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 10:38:01.138 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 10:38:01.164 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 11:00:16.326 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 11:00:16.329 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 11:00:39.876 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 11:30:16.892 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 11:30:16.960 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 11:30:40.863 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 11:31:08.229 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 11:32:02.405 [ThreadPoolTaskScheduler-189] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 12:00:13.487 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 12:00:13.692 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 12:00:37.333 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 12:01:05.993 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 12:02:05.617 [ThreadPoolTaskScheduler-149] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 12:17:02.606 [ThreadPoolTaskScheduler-123] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 12:20:28.323 [ThreadPoolTaskScheduler-152] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000013
+2025-11-04 12:30:21.463 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 12:30:21.466 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 12:30:40.197 [wvp-78] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 12:30:45.058 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 12:31:27.107 [wvp-54] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 12:31:41.573 [wvp-108] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 12:32:02.587 [ThreadPoolTaskScheduler-190] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 12:32:27.714 [wvp-103] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 12:32:41.758 [wvp-95] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 12:33:45.468 [ThreadPoolTaskScheduler-229] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 12:48:30.432 [ThreadPoolTaskScheduler-289] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 12:54:37.195 [ThreadPoolTaskScheduler-118] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 13:00:17.803 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 13:00:17.803 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 13:00:41.395 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 13:01:54.781 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 13:03:25.546 [ThreadPoolTaskScheduler-140] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 13:09:22.363 [ThreadPoolTaskScheduler-227] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 13:17:48.417 [ThreadPoolTaskScheduler-209] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001110000020
+2025-11-04 13:18:22.672 [ThreadPoolTaskScheduler-131] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 13:18:22.795 [ThreadPoolTaskScheduler-73] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 13:30:14.728 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 13:30:14.734 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 13:30:45.748 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 13:31:27.189 [wvp-67] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 13:31:48.489 [wvp-43] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 13:32:18.868 [wvp-20] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 13:33:07.853 [ThreadPoolTaskScheduler-172] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 13:33:10.667 [ThreadPoolTaskScheduler-145] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 14:00:13.673 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 14:00:13.744 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 14:00:37.273 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 14:01:07.223 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 14:01:59.916 [ThreadPoolTaskScheduler-150] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 14:18:49.190 [ThreadPoolTaskScheduler-191] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 14:30:16.614 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 14:30:16.655 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 14:30:40.250 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 14:33:16.826 [ThreadPoolTaskScheduler-157] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 14:33:46.239 [ThreadPoolTaskScheduler-144] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 14:34:48.541 [http-nio-65220-exec-20] ERROR c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:346 - [同步通道], 信令发送失败：IO Exception occured while Sending Request
+2025-11-04 14:34:56.723 [http-nio-65220-exec-17] ERROR c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:346 - [同步通道], 信令发送失败：IO Exception occured while Sending Request
+2025-11-04 14:38:00.386 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 14:38:00.425 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 14:38:00.485 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 14:38:00.522 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 14:38:00.561 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 14:38:00.601 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 14:40:52.812 [wvp-15] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，主动注销, device：34020000001320000013
+2025-11-04 14:48:34.303 [ThreadPoolTaskScheduler-210] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 14:54:42.187 [wvp-73] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.188 [wvp-97] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.188 [wvp-73] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.190 [wvp-14] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.292 [wvp-100] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.292 [wvp-25] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.292 [wvp-47] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.294 [wvp-105] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.294 [wvp-93] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.298 [wvp-104] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.298 [wvp-104] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.313 [wvp-111] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.313 [wvp-67] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.314 [wvp-28] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.391 [wvp-45] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.391 [wvp-113] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.391 [wvp-94] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.392 [wvp-46] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.393 [wvp-26] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.393 [wvp-37] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.487 [wvp-98] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.528 [wvp-123] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.528 [wvp-80] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.528 [wvp-80] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.528 [wvp-117] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.539 [wvp-60] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.539 [wvp-70] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.539 [wvp-2] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.585 [wvp-16] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.585 [wvp-8] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.622 [wvp-12] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.622 [wvp-19] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.622 [wvp-12] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.630 [wvp-55] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.630 [wvp-112] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.630 [wvp-89] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.632 [wvp-84] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.632 [wvp-52] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.691 [wvp-114] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.691 [wvp-103] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.691 [wvp-17] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.695 [wvp-13] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.695 [wvp-53] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.695 [wvp-9] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.727 [wvp-61] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.728 [wvp-61] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.765 [wvp-119] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.765 [wvp-58] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.765 [wvp-83] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.765 [wvp-124] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.794 [wvp-35] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.794 [wvp-27] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.794 [wvp-96] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.798 [wvp-43] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.798 [wvp-29] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.798 [wvp-31] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.823 [wvp-23] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.823 [wvp-23] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.865 [wvp-54] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.865 [wvp-79] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.866 [wvp-87] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.867 [wvp-39] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.887 [wvp-126] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.902 [wvp-71] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.902 [wvp-1] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.902 [wvp-68] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.903 [wvp-120] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.903 [wvp-40] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.904 [wvp-34] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.948 [wvp-65] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.974 [wvp-125] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.974 [wvp-88] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:42.974 [wvp-95] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.013 [wvp-99] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.013 [wvp-6] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.013 [wvp-22] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.017 [wvp-92] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.017 [wvp-106] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.017 [wvp-75] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.019 [wvp-15] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.020 [wvp-11] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.020 [wvp-44] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.041 [wvp-10] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.041 [wvp-108] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.042 [wvp-121] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.067 [wvp-38] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.084 [wvp-36] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.084 [wvp-59] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.086 [wvp-110] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.086 [wvp-122] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.086 [wvp-76] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.147 [wvp-20] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.147 [wvp-69] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:54:43.150 [wvp-118] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 14:58:43.888 [wvp-101] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 15:00:17.929 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 15:00:18.050 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 15:00:30.450 [wvp-117] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 15:00:39.719 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 15:01:20.147 [wvp-50] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 15:02:37.399 [ThreadPoolTaskScheduler-169] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 15:03:00.974 [ThreadPoolTaskScheduler-98] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 15:06:55.550 [wvp-92] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 15:06:55.676 [wvp-75] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 15:17:34.441 [ThreadPoolTaskScheduler-221] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 15:30:16.382 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 15:30:16.431 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 15:30:40.265 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 15:32:22.539 [ThreadPoolTaskScheduler-242] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 15:33:17.067 [ThreadPoolTaskScheduler-95] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 15:49:45.353 [ThreadPoolTaskScheduler-251] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 16:00:19.139 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 16:00:19.183 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 16:00:30.322 [wvp-73] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 16:00:34.948 [wvp-67] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 16:00:48.179 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 16:01:29.176 [wvp-108] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 16:01:35.065 [wvp-51] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 16:01:38.667 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 16:02:00.469 [wvp-89] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 16:02:34.585 [ThreadPoolTaskScheduler-226] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 16:04:17.213 [ThreadPoolTaskScheduler-276] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 16:04:30.459 [ThreadPoolTaskScheduler-289] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 16:08:00.935 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 16:08:00.997 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 16:08:01.041 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 16:08:01.069 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 16:08:01.126 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 16:08:01.158 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 16:30:16.991 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 16:30:17.002 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 16:30:46.148 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 16:34:23.353 [ThreadPoolTaskScheduler-283] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 16:48:20.844 [ThreadPoolTaskScheduler-210] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 16:49:08.392 [ThreadPoolTaskScheduler-145] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 17:00:16.475 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 17:00:16.475 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 17:00:27.972 [wvp-72] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 17:00:45.798 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 17:00:48.233 [wvp-71] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 17:01:12.838 [wvp-18] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 17:01:30.492 [wvp-51] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 17:30:20.634 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 17:30:20.667 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 17:30:44.279 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 17:31:33.577 [wvp-102] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 17:33:20.507 [ThreadPoolTaskScheduler-180] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 17:34:03.712 [ThreadPoolTaskScheduler-181] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 17:40:49.602 [ThreadPoolTaskScheduler-132] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000013
+2025-11-04 18:00:20.959 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 18:00:20.962 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 18:00:44.491 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 18:01:00.892 [wvp-1] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 18:01:25.885 [wvp-52] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 18:19:23.293 [ThreadPoolTaskScheduler-281] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 18:30:18.476 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 18:30:18.499 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 18:30:42.110 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 18:30:57.977 [wvp-37] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 18:31:12.713 [wvp-108] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 18:32:21.121 [wvp-118] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 18:33:17.043 [ThreadPoolTaskScheduler-248] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 18:33:17.652 [ThreadPoolTaskScheduler-85] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 18:41:16.278 [ThreadPoolTaskScheduler-157] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000013
+2025-11-04 18:48:07.862 [ThreadPoolTaskScheduler-208] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 19:00:17.967 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 19:00:18.021 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 19:00:41.619 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 19:00:43.029 [wvp-82] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 19:01:38.929 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 19:02:01.090 [wvp-21] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 19:02:35.266 [ThreadPoolTaskScheduler-60] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 19:03:00.896 [ThreadPoolTaskScheduler-194] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 19:03:18.109 [wvp-8] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.113 [wvp-47] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.117 [wvp-73] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.189 [wvp-19] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.189 [wvp-7] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.189 [wvp-42] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.189 [wvp-112] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.229 [wvp-16] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.229 [wvp-67] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.253 [wvp-45] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.299 [wvp-72] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.299 [wvp-111] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.299 [wvp-114] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.299 [wvp-111] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.299 [wvp-111] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.299 [wvp-55] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.317 [wvp-70] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.317 [wvp-123] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.317 [wvp-80] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.383 [wvp-50] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.383 [wvp-17] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.383 [wvp-12] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.383 [wvp-84] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.383 [wvp-89] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.383 [wvp-40] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.383 [wvp-98] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.384 [wvp-86] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.384 [wvp-2] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.384 [wvp-9] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.448 [wvp-51] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.448 [wvp-79] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.448 [wvp-87] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.448 [wvp-87] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.448 [wvp-119] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.448 [wvp-101] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.448 [wvp-60] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.448 [wvp-119] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.449 [wvp-43] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.449 [wvp-53] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.498 [wvp-103] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.498 [wvp-52] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.498 [wvp-35] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.513 [wvp-83] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.513 [wvp-96] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.513 [wvp-96] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.513 [wvp-39] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.518 [wvp-65] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.558 [wvp-92] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.558 [wvp-92] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.558 [wvp-54] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.558 [wvp-122] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.558 [wvp-122] WARN  c.g.iot.vmp.gb28181.transmit.SIPProcessorObserver:119 - 接收到失败的response响应！status：481,message:Call/Transaction Does Not Exist
+2025-11-04 19:03:18.796 [wvp-13] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 19:04:07.515 [ThreadPoolTaskScheduler-29] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 19:17:35.297 [ThreadPoolTaskScheduler-269] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 19:20:45.401 [ThreadPoolTaskScheduler-214] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 19:30:13.808 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 19:30:13.956 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 19:30:43.783 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 19:30:55.686 [wvp-43] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 19:32:06.551 [wvp-65] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 19:32:23.355 [ThreadPoolTaskScheduler-272] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 19:32:35.206 [wvp-33] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 19:35:30.289 [ThreadPoolTaskScheduler-290] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 20:00:16.045 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 20:00:16.045 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 20:00:41.097 [ThreadPoolTaskScheduler-281] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 20:00:44.906 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 20:00:57.415 [wvp-50] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 20:01:02.159 [wvp-23] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 20:01:58.109 [ThreadPoolTaskScheduler-216] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 20:02:00.171 [wvp-114] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 20:02:21.653 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:02:57.878 [ThreadPoolTaskScheduler-129] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 20:06:20.376 [ThreadPoolTaskScheduler-254] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001110000020
+2025-11-04 20:08:00.766 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:08:00.801 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:08:00.834 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:08:00.861 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:08:00.895 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:08:00.932 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:15:26.229 [ThreadPoolTaskScheduler-198] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 20:30:14.115 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:30:19.185 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 20:30:23.163 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:30:32.342 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 20:30:42.891 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 20:30:43.390 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 20:30:51.402 [http-nio-65220-exec-17] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 20:33:11.119 [wvp-97] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 21:00:13.755 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:00:18.946 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 21:00:22.819 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:00:31.845 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:00:42.773 [http-nio-65220-exec-21] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 21:00:42.872 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 21:00:50.885 [http-nio-65220-exec-9] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 21:00:59.008 [wvp-1] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 21:02:23.848 [wvp-4] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 21:03:03.161 [ThreadPoolTaskScheduler-270] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 21:03:07.349 [ThreadPoolTaskScheduler-248] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 21:03:27.189 [ThreadPoolTaskScheduler-252] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 21:18:04.480 [ThreadPoolTaskScheduler-193] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 21:18:24.337 [ThreadPoolTaskScheduler-289] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 21:18:50.760 [ThreadPoolTaskScheduler-240] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 21:30:14.736 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:30:19.773 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 21:30:23.777 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:30:32.802 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:30:34.579 [wvp-67] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 21:30:43.512 [http-nio-65220-exec-15] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 21:30:43.835 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 21:30:51.850 [http-nio-65220-exec-23] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 21:31:18.645 [wvp-57] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 21:33:38.815 [ThreadPoolTaskScheduler-66] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 21:38:01.254 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:38:01.294 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:38:01.409 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:38:01.437 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:38:01.468 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:38:01.544 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:38:09.276 [http-nio-65220-exec-21] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:38:17.345 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:38:25.375 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 21:48:35.863 [ThreadPoolTaskScheduler-249] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 22:00:11.311 [http-nio-65220-exec-6] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 22:00:16.400 [http-nio-65220-exec-22] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 22:00:20.350 [http-nio-65220-exec-23] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 22:00:29.406 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 22:00:40.476 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 22:00:46.078 [http-nio-65220-exec-20] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 22:00:48.489 [http-nio-65220-exec-18] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 22:02:32.968 [ThreadPoolTaskScheduler-247] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 22:08:20.970 [ThreadPoolTaskScheduler-206] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 22:19:19.676 [ThreadPoolTaskScheduler-168] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 22:23:09.024 [ThreadPoolTaskScheduler-58] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000009
+2025-11-04 22:30:10.749 [http-nio-65220-exec-24] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 22:30:15.860 [http-nio-65220-exec-6] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 22:30:19.768 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 22:30:28.842 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 22:30:39.497 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 22:30:39.883 [http-nio-65220-exec-23] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 22:30:47.897 [http-nio-65220-exec-23] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 22:30:55.820 [wvp-102] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 22:33:07.992 [ThreadPoolTaskScheduler-48] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 22:33:30.489 [ThreadPoolTaskScheduler-277] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 22:36:45.348 [ThreadPoolTaskScheduler-168] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 22:44:17.218 [wvp-58] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，主动注销, device：34020000001320000014
+2025-11-04 22:44:42.664 [wvp-5] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，主动注销, device：34020000001320000014
+2025-11-04 22:44:45.736 [wvp-81] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，主动注销, device：34020000001320000014
+2025-11-04 22:48:04.737 [ThreadPoolTaskScheduler-156] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000003
+2025-11-04 22:48:24.656 [ThreadPoolTaskScheduler-191] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 22:49:29.579 [wvp-1] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，主动注销, device：34020000001320000014
+2025-11-04 22:51:30.443 [ThreadPoolTaskScheduler-167] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000007
+2025-11-04 22:52:27.415 [wvp-57] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，主动注销, device：34020000001320000014
+2025-11-04 23:00:10.979 [http-nio-65220-exec-17] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 23:00:16.066 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 23:00:20.005 [http-nio-65220-exec-20] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 23:00:28.608 [wvp-13] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 23:00:29.050 [http-nio-65220-exec-18] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 23:00:40.109 [http-nio-65220-exec-17] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 23:00:48.122 [http-nio-65220-exec-17] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 23:01:02.570 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 23:01:13.001 [ThreadPoolTaskScheduler-218] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000014
+2025-11-04 23:01:42.790 [ThreadPoolTaskScheduler-201] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 23:01:43.721 [wvp-51] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 23:02:39.151 [ThreadPoolTaskScheduler-16] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 23:03:07.747 [ThreadPoolTaskScheduler-38] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 23:03:18.645 [ThreadPoolTaskScheduler-71] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000005
+2025-11-04 23:16:24.910 [ThreadPoolTaskScheduler-298] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000008
+2025-11-04 23:17:36.213 [ThreadPoolTaskScheduler-77] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 23:18:01.871 [ThreadPoolTaskScheduler-17] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
+2025-11-04 23:30:08.952 [http-nio-65220-exec-15] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 23:30:14.056 [http-nio-65220-exec-24] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 23:30:17.993 [http-nio-65220-exec-9] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 23:30:27.035 [http-nio-65220-exec-22] ERROR c.g.iot.vmp.vmanager.gb28181.ptz.PtzController:136 - [命令发送失败] 前端控制: IO Exception occured while Sending Request
+2025-11-04 23:30:37.630 [http-nio-65220-exec-18] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 23:30:38.077 [http-nio-65220-exec-9] WARN  c.g.i.v.media.service.impl.MediaServerServiceImpl:173 - [openRTPServer] 平台对接时下级可能自定义ssrc，但是tcp模式zlm收流目前无法更新ssrc，可能收流超时，此时请使用udp收流或者关闭ssrc校验
+2025-11-04 23:30:46.090 [http-nio-65220-exec-9] ERROR com.genersoft.iot.vmp.service.impl.PlayServiceImpl:581 - [命令发送失败] 点播消息: IO Exception occured while Sending Request
+2025-11-04 23:31:19.043 [wvp-92] ERROR com.genersoft.iot.vmp.media.zlm.ZLMRESTfulUtils:212 - [ http://192.168.1.41:65222/index/api/getSnap ]请求失败: timeout
+2025-11-04 23:32:33.278 [ThreadPoolTaskScheduler-241] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000002
+2025-11-04 23:32:55.836 [ThreadPoolTaskScheduler-290] WARN  c.genersoft.iot.vmp.service.impl.DeviceServiceImpl:205 - [设备离线]，三次心跳失败, device：34020000001320000006
