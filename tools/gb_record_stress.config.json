@@ -1,0 +1,95 @@
+{
+  "_explain": {
+    "base_url": "WVP服务基础地址，结尾是否带/都可以。例如：http://111.198.2.202:65220/",
+    "device_id": "设备国标ID，对应接口路径中的{deviceId}。",
+    "channel_id": "通道国标ID，对应接口路径中的{channelId}。",
+
+    "token_url": "可选。自动获取token的GET接口地址。不填则使用access_token静态值或无token请求。",
+    "token_path": "从token_url返回JSON中提取token的路径。默认 data.accessToken。",
+    "token_header": "请求WVP时携带token的header名。WVP默认是 access-token。",
+    "token_headers": "请求token_url时附加的请求头，JSON对象形式。",
+    "access_token": "可选。静态token；如果同时配置token_url，优先使用此静态token。",
+    "api_key": "可选。若系统启用了api-key鉴权，可在这里配置。",
+
+    "query_start": "录像查询起始时间，格式 yyyy-MM-dd HH:mm:ss。",
+    "query_end": "录像查询结束时间，格式 yyyy-MM-dd HH:mm:ss。",
+    "fallback_start": "当query失败或无录像时使用的兜底开始时间。需与fallback_end成对出现。",
+    "fallback_end": "当query失败或无录像时使用的兜底结束时间。需与fallback_start成对出现。",
+
+    "download_speed": "下载倍速，传给 /download/start 的 downloadSpeed 参数。",
+    "concurrency": "并发线程数（同时执行的压测用例数）。",
+    "total_cases": "总用例数（总压测请求链路次数）。",
+    "poll_interval": "轮询/download/progress间隔秒数。",
+    "poll_timeout": "单用例轮询进度的超时时间（秒）。",
+    "file_url_grace_sec": "progress达到1后，继续等待downLoadFilePath出现的宽限秒数。",
+    "request_timeout": "单次HTTP请求超时秒数（query/start/progress/stop/下载都使用）。",
+    "verify_ssl": "是否校验HTTPS证书。内网自签名证书通常设为false。",
+    "prefer_https_file_url": "如果同时存在httpPath/httpsPath，是否优先走httpsPath。",
+
+    "min_download_bytes": "判定下载成功的最小文件字节数阈值。",
+    "save_file": "是否保存下载文件到本地。",
+    "output_dir": "下载文件保存目录（save_file=true时生效）。",
+    "csv_out": "压测明细CSV输出路径。",
+    "summary_out": "压测汇总JSON输出路径。",
+    "excel_out": "Excel工作簿输出路径（xlsx）。会包含detail和summary两个sheet。",
+    "export_excel": "是否导出Excel工作簿。",
+    "run_level": "本次运行级别标签，用于自动命名输出文件前缀。例如 smoke/baseline/stress。",
+    "auto_name_output": "是否自动按“级别+序号”生成不覆盖文件名。true时生成如 smoke_detail_001.csv。",
+    "annotate_output_keys": "是否给输出文件字段名增加中文注释。true时输出如 timestamp（时间戳）。",
+
+    "selection_strategy": "从query返回recordList中选片段策略：random/latest/earliest。",
+    "clip_seconds": "对选中的录像片段做时长裁剪（秒）。0表示不裁剪，使用完整片段。",
+    "allow_start_without_query": "query失败时是否允许继续用fallback时间段发起start。",
+    "seed": "随机种子，保证random选择可复现。",
+
+    "headers": "对WVP接口请求附加的通用请求头，JSON对象形式。"
+  },
+  "base_url": "http://111.198.2.202:65220/",
+  "device_id": "34020000001320000019",
+  "channel_id": "34020000001320000019",
+
+  "token_url": "http://111.198.2.202:65493/get_token/",
+  "token_path": "data.accessToken",
+  "token_header": "access-token",
+  "token_headers": {
+    "Accept": "application/json"
+  },
+  "access_token": "",
+  "api_key": "",
+
+  "query_start": "2026-05-12 00:00:00",
+  "query_end": "2026-05-12 23:59:59",
+  "fallback_start": "",
+  "fallback_end": "",
+
+  "download_speed": 4,
+  "concurrency": 10,
+  "total_cases": 200,
+  "poll_interval": 2.0,
+  "poll_timeout": 240.0,
+  "file_url_grace_sec": 20.0,
+  "request_timeout": 35.0,
+  "verify_ssl": false,
+  "prefer_https_file_url": false,
+
+  "min_download_bytes": 1024,
+  "save_file": true,
+  "output_dir": "./gb_record_downloads",
+  "csv_out": "./gb_record_stress_detail.csv",
+  "summary_out": "./gb_record_stress_summary.json",
+  "excel_out": "./gb_record_stress_report.xlsx",
+  "export_excel": true,
+  "run_level": "smoke",
+  "auto_name_output": true,
+  "annotate_output_keys": true,
+
+  "selection_strategy": "random",
+  "clip_seconds": 60,
+  "allow_start_without_query": true,
+  "seed": 20260512,
+
+  "headers": {
+    "Accept": "*/*",
+    "User-Agent": "gb-record-stress/1.0"
+  }
+}
