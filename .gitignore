@@ -1,0 +1,42 @@
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Runtime logs
+logs/
+*.log
+wvp-pro-2.7.2-deploy/logs/
+
+# Generated deploy package
+wvp-pro-2.7.2-deploy/
+wvp-pro-2.7.2-deploy.zip
+
+# Stress test outputs
+gb_record_downloads/
+*_detail*.csv
+*_summary*.json
+*_report*.xlsx
+single_detail*.csv
+single_summary*.json
+single_report*.xlsx
+smoke_detail*.csv
+smoke_summary*.json
+smoke_report*.xlsx
+*.xlsx
+
+# Temporary/cache
+tools/__pycache__/
+*.pyc
+*.pyo
+
+# Office temp files
+~$*.xlsx
