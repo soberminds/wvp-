@@ -1,0 +1,13 @@
+**
+
+!docker/
+!docker/wvp/
+!docker/wvp/Dockerfile
+
+!src/
+!src/main/
+!src/main/resources/
+!src/main/resources/application-docker.yml
+
+!wvp-pro-2.7.2-deploy/
+!wvp-pro-2.7.2-deploy/*.jar

@@ -1,27 +1,43 @@
-FROM ubuntu:20.04   as   build
+FROM eclipse-temurin:11-jre-focal AS runtime-base
+
+ARG APT_MIRROR="http://mirrors.aliyun.com/ubuntu/"
+
+ENV LC_ALL=zh_CN.UTF-8
+
+RUN sed -i "s|http://archive.ubuntu.com/ubuntu/|${APT_MIRROR}|g; s|http://security.ubuntu.com/ubuntu/|${APT_MIRROR}|g" /etc/apt/sources.list && \
+        export DEBIAN_FRONTEND=noninteractive && \
+        apt-get update -o Acquire::Retries=10 -o Acquire::http::Timeout=30 && \
+        (apt-get install -y --no-install-recommends -o Acquire::Retries=10 -o Acquire::http::Timeout=30 ca-certificates ffmpeg language-pack-zh-hans || \
+         (apt-get update -o Acquire::Retries=10 -o Acquire::http::Timeout=30 && \
+          apt-get install -y --fix-missing --no-install-recommends -o Acquire::Retries=10 -o Acquire::http::Timeout=30 ca-certificates ffmpeg language-pack-zh-hans)) && \
+        apt-get autoremove -y && \
+        apt-get clean -y && \
+        rm -rf /var/lib/apt/lists/*
+
+FROM maven:3.8.8-eclipse-temurin-11-focal AS build
+
+ARG APT_MIRROR="http://mirrors.aliyun.com/ubuntu/"
 
 ARG gitUrl="https://gitee.com/pan648540858"
 ARG zlmGitUrl="https://gitee.com/xia-chu/ZLMediaKit"
 
-RUN export DEBIAN_FRONTEND=noninteractive &&\
-        apt-get update && \
-        apt-get install -y --no-install-recommends openjdk-11-jre git maven nodejs npm build-essential \
-        cmake ca-certificates openssl ffmpeg &&\
+RUN sed -i "s|http://archive.ubuntu.com/ubuntu/|${APT_MIRROR}|g; s|http://security.ubuntu.com/ubuntu/|${APT_MIRROR}|g" /etc/apt/sources.list && \
+        export DEBIAN_FRONTEND=noninteractive && \
+        apt-get update -o Acquire::Retries=10 -o Acquire::http::Timeout=30 && \
+        (apt-get install -y --no-install-recommends -o Acquire::Retries=10 -o Acquire::http::Timeout=30 git build-essential cmake pkg-config openssl libssl-dev ca-certificates || \
+         (apt-get update -o Acquire::Retries=10 -o Acquire::http::Timeout=30 && \
+          apt-get install -y --fix-missing --no-install-recommends -o Acquire::Retries=10 -o Acquire::http::Timeout=30 git build-essential cmake pkg-config openssl libssl-dev ca-certificates)) && \
+        apt-get autoremove -y && \
+        apt-get clean -y && \
+        rm -rf /var/lib/apt/lists/* && \
         mkdir -p /opt/wvp/config /opt/wvp/heapdump /opt/wvp/config /opt/assist/config /opt/assist/heapdump /opt/media/www/record
 
 RUN cd /home && \
         git clone "${gitUrl}/maven.git" && \
         cp maven/settings.xml /usr/share/maven/conf/
 
-RUN cd /home && \
-        git clone "${gitUrl}/wvp-GB28181-pro.git"
-RUN cd /home/wvp-GB28181-pro/web_src && \
-        npm install && \
-        npm run build
-RUN cd /home/wvp-GB28181-pro && \
-        mvn clean package -Dmaven.test.skip=true && \
-        cp /home/wvp-GB28181-pro/target/*.jar /opt/wvp/ && \
-        cp /home/wvp-GB28181-pro/src/main/resources/application-docker.yml /opt/wvp/config/application.yml
+COPY wvp-pro-2.7.2-deploy/*.jar /opt/wvp/
+COPY src/main/resources/application-docker.yml /opt/wvp/config/application.yml
 
 RUN cd /home && \
 		git clone "${gitUrl}/wvp-pro-assist.git"
@@ -53,7 +69,7 @@ RUN cd /opt/wvp && \
         echo 'java ${WVP_JVM_CONFIG} -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/opt/wvp/heapdump/ -jar *.jar --spring.config.location=/opt/wvp/config/application.yml --media.record-assist-port=18081 ${WVP_CONFIG}' >> run.sh && \
         chmod +x run.sh
 
-FROM ubuntu:20.04
+FROM runtime-base
 
 EXPOSE 18080/tcp
 EXPOSE 5060/tcp
@@ -66,15 +82,6 @@ EXPOSE 554/tcp
 EXPOSE 554/udp
 EXPOSE 30000-30500/tcp
 EXPOSE 30000-30500/udp
-
-ENV LC_ALL zh_CN.UTF-8
-
-RUN export DEBIAN_FRONTEND=noninteractive &&\
-        apt-get update && \
-        apt-get install -y --no-install-recommends openjdk-11-jre ca-certificates ffmpeg language-pack-zh-hans && \
-        apt-get autoremove -y && \
-        apt-get clean -y && \
-        rm -rf /var/lib/apt/lists/*dic
 
 COPY --from=build /opt /opt
 WORKDIR /opt/wvp

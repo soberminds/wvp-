@@ -34,6 +34,10 @@ smoke_report*.xlsx
 *.xlsx
 
 # Temporary/cache
+tmp/
+.tmp_status.txt
+docker/mysql/data/
+docker/redis/data/
 tools/__pycache__/
 *.pyc
 *.pyo

@@ -1,5 +1,23 @@
-version: '3'
 services:
+  mysql:
+    image: mysql:8.0
+    restart: always
+    environment:
+      TZ: "Asia/Shanghai"
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: wvp2
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --default-time-zone=+08:00
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+      - ../数据库/2.7.2/初始化-mysql-2.7.2.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$${MYSQL_ROOT_PASSWORD} --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
   redis:
     image: redis
     restart: always
@@ -11,7 +29,8 @@ services:
     command: redis-server /etc/redis/redis_default.conf --appendonly yes
   wvp:
     build:
-      context: ./wvp
+      context: ..
+      dockerfile: docker/wvp/Dockerfile
       args:
         gitUrl: "https://gitee.com/pan648540858"
         zlmGitUrl: "https://gitee.com/xia-chu/ZLMediaKit"
@@ -27,16 +46,24 @@ services:
       - "30000-30500:30000-30500/udp"
     volumes:
       - ./video:/opt/media/www/record/
+      - ./media/config.ini:/opt/media/config.ini:ro
+      - ../src/main/resources/application-docker.yml:/opt/wvp/config/application.yml:ro
       - ./logs/wvp:/opt/wvp/logs/
       - ./logs/assist:/opt/assist/logs/
       - ./logs/media:/opt/media/log/
     environment:
       TZ: "Asia/Shanghai"
       # [必须修改] 本机的IP
-      WVP_HOST: 172.18.0.61
+      WVP_BIND_IP: 0.0.0.0
+      WVP_HOST: 192.168.43.14
       WVP_PWD: aseqw_+hiy123
-      WVP_DOMAIN: 6101130049
-      WVP_ID: 61011300490000000001
+      WVP_DOMAIN: "6101130049"
+      WVP_ID: "61011300490000000001"
+      MYSQL_HOST: mysql
+      MYSQL_PORT: 3306
+      MYSQL_DB: wvp2
+      MYSQL_USER: root
+      MYSQL_PWD: root123
       REDIS_HOST: redis
       REDIS_PORT: 6379
       REDIS_DB: 6
@@ -46,4 +73,7 @@ services:
       ASSIST_CONFIG:
       WVP_CONFIG:
     depends_on:
-      - redis
+      redis:
+        condition: service_started
+      mysql:
+        condition: service_healthy
