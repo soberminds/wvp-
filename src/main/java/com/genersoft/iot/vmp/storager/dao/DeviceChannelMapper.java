@@ -23,7 +23,7 @@ public interface DeviceChannelMapper {
             "longitude_wgs84, latitude_wgs84, has_audio, create_time, update_time, business_group_id, gps_time, stream_identification) " +
             "VALUES (#{channelId}, #{deviceId}, #{name}, #{manufacture}, #{model}, #{owner}, #{civilCode}, #{block}," +
             "#{address}, #{parental}, #{parentId}, #{safetyWay}, #{registerWay}, #{certNum}, #{certifiable}, #{errCode}, #{secrecy}, " +
-            "#{ipAddress}, #{port}, #{password}, #{ptzType}, #{status}, #{streamId}, #{longitude}, #{latitude}, #{longitudeGcj02}, " +
+            "#{ipAddress}, #{port}, null, #{ptzType}, #{status}, #{streamId}, #{longitude}, #{latitude}, #{longitudeGcj02}, " +
             "#{latitudeGcj02}, #{longitudeWgs84}, #{latitudeWgs84}, #{hasAudio}, #{createTime}, #{updateTime}, #{businessGroupId}, #{gpsTime}, #{streamIdentification})")
     int add(DeviceChannel channel);
 
@@ -47,7 +47,7 @@ public interface DeviceChannelMapper {
             "<if test='secrecy != null'>, secrecy=#{secrecy}</if>" +
             "<if test='ipAddress != null'>, ip_address=#{ipAddress}</if>" +
             "<if test='port != null'>, port=#{port}</if>" +
-            "<if test='password != null'>, password=#{password}</if>" +
+            ", password=null" +
             "<if test='ptzType != null'>, custom_ptz_type=#{ptzType}</if>" +
             "<if test='status != null'>, status=#{status}</if>" +
             "<if test='streamId != null'>, stream_id=#{streamId}</if>" +
@@ -252,7 +252,7 @@ public interface DeviceChannelMapper {
             "#{item.owner}, #{item.civilCode}, #{item.block},#{item.subCount}," +
             "#{item.address}, #{item.parental}, #{item.parentId}, #{item.safetyWay}, #{item.registerWay}, " +
             "#{item.certNum}, #{item.certifiable}, #{item.errCode}, #{item.secrecy}, " +
-            "#{item.ipAddress}, #{item.port}, #{item.password}, #{item.ptzType}, #{item.status}, " +
+            "#{item.ipAddress}, #{item.port}, null, #{item.ptzType}, #{item.status}, " +
             "#{item.streamId}, #{item.longitude}, #{item.latitude},#{item.longitudeGcj02}, " +
             "#{item.latitudeGcj02},#{item.longitudeWgs84}, #{item.latitudeWgs84}, #{item.hasAudio}, now(), now(), " +
             "#{item.businessGroupId}, #{item.gpsTime}, #{item.streamIdentification}) " +
@@ -273,7 +273,7 @@ public interface DeviceChannelMapper {
             "#{item.owner}, #{item.civilCode}, #{item.block},#{item.subCount}," +
             "#{item.address}, #{item.parental}, #{item.parentId}, #{item.safetyWay}, #{item.registerWay}, " +
             "#{item.certNum}, #{item.certifiable}, #{item.errCode}, #{item.secrecy}, " +
-            "#{item.ipAddress}, #{item.port}, #{item.password}, #{item.ptzType}, #{item.status}, " +
+            "#{item.ipAddress}, #{item.port}, null, #{item.ptzType}, #{item.status}, " +
             "#{item.streamId}, #{item.longitude}, #{item.latitude},#{item.longitudeGcj02}, " +
             "#{item.latitudeGcj02},#{item.longitudeWgs84}, #{item.latitudeWgs84}, #{item.hasAudio}, now(), now(), " +
             "#{item.businessGroupId}, #{item.gpsTime}) " +
@@ -298,7 +298,7 @@ public interface DeviceChannelMapper {
             "secrecy=VALUES(secrecy), " +
             "ip_address=VALUES(ip_address), " +
             "port=VALUES(port), " +
-            "password=VALUES(password), " +
+            "password=null, " +
             "ptz_type=VALUES(ptz_type), " +
             "status=VALUES(status), " +
             "stream_id=VALUES(stream_id), " +
@@ -340,7 +340,7 @@ public interface DeviceChannelMapper {
             "<if test='item.secrecy != null'>, secrecy=#{item.secrecy}</if>" +
             "<if test='item.ipAddress != null'>, ip_address=#{item.ipAddress}</if>" +
             "<if test='item.port != null'>, port=#{item.port}</if>" +
-            "<if test='item.password != null'>, password=#{item.password}</if>" +
+            ", password=null" +
             "<if test='item.ptzType != null'>, ptz_type=#{item.ptzType}</if>" +
             "<if test='item.status != null'>, status=#{item.status}</if>" +
             "<if test='item.streamId != null'>, stream_id=#{item.streamId}</if>" +

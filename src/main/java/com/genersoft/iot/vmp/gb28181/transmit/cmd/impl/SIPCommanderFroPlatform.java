@@ -348,11 +348,8 @@ public class SIPCommanderFroPlatform implements ISIPCommanderForPlatform {
                                 catalogXml.append("<IPAddress></IPAddress>\r\n");
                             }
                             catalogXml.append("<Port>" + channel.getPort() + "</Port>\r\n");
-                            if (!ObjectUtils.isEmpty(channel.getPassword())) {
-                                catalogXml.append("<Password>" + channel.getPassword() + "</Password>\r\n");
-                            }else {
-                                catalogXml.append("<Password></Password>\r\n");
-                            }
+                            // Do not expose channel passwords in catalog responses to parent platforms.
+                            catalogXml.append("<Password></Password>\r\n");
                             if (!ObjectUtils.isEmpty(channel.getPtzType())) {
                                 catalogXml.append("<PTZType>" + channel.getPtzType() + "</PTZType>\r\n");
                             }else {

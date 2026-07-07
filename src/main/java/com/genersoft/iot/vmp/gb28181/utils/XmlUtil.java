@@ -522,10 +522,7 @@ public class XmlUtil {
                     }
 
                     // 设备口令
-                    String password = getText(itemDevice, "Password");
-                    if (!ObjectUtils.isEmpty(password)) {
-                        deviceChannel.setPassword(password);
-                    }
+                    // Do not persist Catalog Password values from devices.
 
 
                     // 设备状态
