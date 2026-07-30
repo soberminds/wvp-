@@ -325,7 +325,6 @@
 <script>
 import rtcPlayer from '../dialog/rtcPlayer.vue'
 import LivePlayer from '@liveqing/liveplayer'
-import crypto from 'crypto'
 import jessibucaPlayer from '../common/jessibuca.vue'
 
 export default {
@@ -682,36 +681,30 @@ export default {
         });
       } else if (this.broadcastStatus === 1) {
         this.broadcastStatus = -1;
-        this.broadcastRtc.close()
+        if (this.broadcastRtc) {
+          this.broadcastRtc.close()
+        }
       }
     },
     startBroadcast(url) {
-      // 获取推流鉴权Key
-      this.$axios({
-        method: 'post',
-        url: '/api/user/userInfo',
-      }).then((res) => {
-        if (res.data.code !== 0) {
-          this.$message({
-            showClose: true,
-            message: "获取推流鉴权Key失败",
-            type: "error",
-          });
-          this.broadcastStatus = -1;
-        } else {
-          let pushKey = res.data.data.pushKey;
-          // 获取推流鉴权KEY
-          url += "&sign=" + crypto.createHash('md5').update(pushKey, "utf8").digest('hex')
-          console.log("开始语音喊话： " + url)
-          this.broadcastRtc = new ZLMRTCClient.Endpoint({
-            debug: true, // 是否打印日志
-            zlmsdpUrl: url, //流地址
-            simulecast: false,
-            useCamera: false,
-            audioEnable: true,
-            videoEnable: false,
-            recvOnly: false,
-          })
+      if (!url) {
+        this.$message({
+          showClose: true,
+          message: "获取语音对讲地址失败",
+          type: "error",
+        });
+        this.broadcastStatus = -1;
+        return;
+      }
+      this.broadcastRtc = new ZLMRTCClient.Endpoint({
+        debug: true, // 是否打印日志
+        zlmsdpUrl: url, //流地址
+        simulecast: false,
+        useCamera: false,
+        audioEnable: true,
+        videoEnable: false,
+        recvOnly: false,
+      })
 
           // webrtcPlayer.on(ZLMRTCClient.Events.WEBRTC_ON_REMOTE_STREAMS,(e)=>{//获取到了远端流，可以播放
           //   console.error('播放成功',e.streams)
@@ -772,20 +765,11 @@ export default {
             });
             this.broadcastStatus = -1;
           });
-        }
-      }).catch((e) => {
-        this.$message({
-          showClose: true,
-          message: e,
-          type: 'error'
-        });
-        this.broadcastStatus = -1;
-      });
-
-
     },
     stopBroadcast() {
-      this.broadcastRtc.close();
+      if (this.broadcastRtc) {
+        this.broadcastRtc.close();
+      }
       this.broadcastStatus = -1;
       this.$axios({
         method: 'get',

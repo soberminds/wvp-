@@ -1,5 +1,9 @@
 package com.genersoft.iot.vmp.storager.dao.dto;
 
+import com.alibaba.fastjson2.annotation.JSONField;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.swagger.v3.oas.annotations.media.Schema;
+
 public class User {
 
     private int id;
@@ -26,6 +30,9 @@ public class User {
         this.username = username;
     }
 
+    @JsonIgnore
+    @JSONField(serialize = false)
+    @Schema(hidden = true)
     public String getPassword() {
         return password;
     }
@@ -58,6 +65,9 @@ public class User {
         this.role = role;
     }
 
+    @JsonIgnore
+    @JSONField(serialize = false)
+    @Schema(hidden = true)
     public String getPushKey() {
         return pushKey;
     }

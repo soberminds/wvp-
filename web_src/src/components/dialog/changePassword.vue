@@ -92,10 +92,10 @@ export default {
       this.$axios({
         method: 'post',
         url:"/api/user/changePassword",
-        params: {
+        data: new URLSearchParams({
           oldPassword: crypto.createHash('md5').update(this.oldPassword, "utf8").digest('hex'),
           password: this.newPassword
-        }
+        })
       }).then((res)=> {
         if (res.data.code === 0) {
           this.$message({

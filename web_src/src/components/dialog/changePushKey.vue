@@ -49,13 +49,12 @@ export default {
       listChangeCallback: null,
       form: {},
       rules: {
-        newpushKey: [{ required: true, validator: validatePass1, trigger: "blur" }],
+        newPushKey: [{ required: true, validator: validatePass1, trigger: "blur" }],
       },
     };
   },
   methods: {
     openDialog: function (row, callback) {
-      console.log(row)
       this.showDialog = true;
       this.listChangeCallback = callback;
       if (row != null) {
@@ -66,10 +65,10 @@ export default {
       this.$axios({
         method: 'post',
         url:"/api/user/changePushKey",
-        params: {
+        data: new URLSearchParams({
           pushKey: this.newPushKey,
           userId: this.form.id,
-        }
+        })
       }).then((res)=> {
         if (res.data.code === 0) {
           this.$message({
@@ -92,7 +91,7 @@ export default {
     },
     close: function () {
       this.showDialog = false;
-      this.newpushKey = null;
+      this.newPushKey = null;
       this.userId=null;
       this.adminId=null;
     },

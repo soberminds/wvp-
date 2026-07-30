@@ -7,6 +7,8 @@ import com.genersoft.iot.vmp.common.StreamInfo;
 import com.genersoft.iot.vmp.conf.UserSetting;
 import com.genersoft.iot.vmp.conf.exception.ControllerException;
 import com.genersoft.iot.vmp.conf.security.JwtUtils;
+import com.genersoft.iot.vmp.conf.security.SecurityUtils;
+import com.genersoft.iot.vmp.conf.security.dto.LoginUser;
 import com.genersoft.iot.vmp.gb28181.bean.Device;
 import com.genersoft.iot.vmp.gb28181.bean.SsrcTransaction;
 import com.genersoft.iot.vmp.gb28181.session.VideoStreamSessionManager;
@@ -17,7 +19,9 @@ import com.genersoft.iot.vmp.media.bean.MediaServer;
 import com.genersoft.iot.vmp.media.service.IMediaServerService;
 import com.genersoft.iot.vmp.service.IInviteStreamService;
 import com.genersoft.iot.vmp.service.IPlayService;
+import com.genersoft.iot.vmp.service.IUserService;
 import com.genersoft.iot.vmp.service.bean.InviteErrorCode;
+import com.genersoft.iot.vmp.storager.dao.dto.User;
 import com.genersoft.iot.vmp.storager.IVideoManagerStorage;
 import com.genersoft.iot.vmp.utils.DateUtil;
 import com.genersoft.iot.vmp.vmanager.bean.AudioBroadcastResult;
@@ -31,6 +35,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.DigestUtils;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.async.DeferredResult;
@@ -38,6 +43,7 @@ import org.springframework.web.context.request.async.DeferredResult;
 import javax.servlet.http.HttpServletRequest;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.UUID;
 
@@ -76,6 +82,9 @@ public class PlayController {
 
 	@Autowired
 	private UserSetting userSetting;
+
+	@Autowired
+	private IUserService userService;
 
 	@Operation(summary = "开始点播", security = @SecurityRequirement(name = JwtUtils.HEADER))
 	@Parameter(name = "deviceId", description = "设备国标编号", required = true)
@@ -212,8 +221,38 @@ public class PlayController {
 			throw new ControllerException(ErrorCode.ERROR400.getCode(), "未找到通道： " + channelId);
 		}
 
-		return playService.audioBroadcast(device, channelId, broadcastMode);
+		AudioBroadcastResult result = playService.audioBroadcast(device, channelId, broadcastMode);
+		appendPublishAuthorization(result);
+		return result;
 
+	}
+
+	private void appendPublishAuthorization(AudioBroadcastResult result) {
+		if (result == null || result.getStreamInfo() == null) {
+			return;
+		}
+		LoginUser userInfo = SecurityUtils.getUserInfo();
+		if (userInfo == null) {
+			return;
+		}
+		User user = userService.getUserById(userInfo.getId());
+		if (user == null || ObjectUtils.isEmpty(user.getPushKey())) {
+			return;
+		}
+		String callId = UUID.randomUUID().toString().replace("-", "");
+		String sign = DigestUtils.md5DigestAsHex(
+				(callId + "_" + user.getPushKey()).getBytes(StandardCharsets.UTF_8));
+		StreamContent streamInfo = result.getStreamInfo();
+		streamInfo.setRtc(appendPublishAuthorization(streamInfo.getRtc(), callId, sign));
+		streamInfo.setRtcs(appendPublishAuthorization(streamInfo.getRtcs(), callId, sign));
+	}
+
+	private String appendPublishAuthorization(String url, String callId, String sign) {
+		if (ObjectUtils.isEmpty(url)) {
+			return url;
+		}
+		String separator = url.contains("?") ? "&" : "?";
+		return url + separator + "callId=" + callId + "&sign=" + sign;
 	}
 
 	@Operation(summary = "停止语音广播")
@@ -289,4 +328,3 @@ public class PlayController {
 	}
 
 }
-

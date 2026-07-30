@@ -101,11 +101,11 @@ export default {
       this.$axios({
         method: 'post',
         url: "/api/user/add",
-        params: {
+        data: new URLSearchParams({
           username: this.username,
           password: this.password,
           roleId: this.roleId
-        }
+        })
       }).then((res) => {
         if (res.data.code === 0) {
           this.$message({

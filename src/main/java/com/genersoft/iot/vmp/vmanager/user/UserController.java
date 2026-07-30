@@ -42,7 +42,6 @@ public class UserController {
     @Autowired
     private IRoleService roleService;
 
-    @GetMapping("/login")
     @PostMapping("/login")
     @Operation(summary = "登录", description = "登录成功后返回AccessToken， 可以从返回值获取到也可以从响应头中获取到，" +
             "后续的请求需要添加请求头 'access-token'或者放在参数里")
@@ -170,7 +169,7 @@ public class UserController {
         return userService.getUsers(page, count);
     }
 
-    @RequestMapping("/changePushKey")
+    @PostMapping("/changePushKey")
     @Operation(summary = "修改pushkey", security = @SecurityRequirement(name = JwtUtils.HEADER))
     @Parameter(name = "userId", description = "用户Id", required = true)
     @Parameter(name = "pushKey", description = "新的pushKey", required = true)

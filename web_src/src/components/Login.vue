@@ -81,12 +81,11 @@ export default {
       }, 1000)
 
       this.$axios({
-      	method: 'get',
+        method: 'post',
         url:"/api/user/login",
-        params: loginParam
+        data: new URLSearchParams(loginParam)
       }).then(function (res) {
         window.clearTimeout(timeoutTask)
-        console.log(res);
         console.log("登录成功");
           if (res.data.code === 0 ) {
             userService.setUser(res.data.data)
@@ -119,4 +118,3 @@ export default {
   }
 }
 </script>
-

@@ -76,13 +76,18 @@ sip:
 media:
   id: zlmediakit-local
   # [必须修改] zlm服务器的内网IP
-  ip: 172.19.128.50
+  ip: 127.0.0.1
   # [可选] 有公网IP就配置公网IP, 不可用域名
   wan_ip:
   # [必须修改] zlm服务器的http.port
   http-port: 9092
+  rtmp-port: 1935
+  rtp-proxy-port: 10000
+  rtsp-port: 8554
   # [可选] zlm服务器访问WVP所使用的IP, 默认使用127.0.0.1，zlm和wvp没有部署在同一台服务器时必须配置
-  hook-ip: 172.19.128.50
+  hook-ip: host.docker.internal
+  sdp-ip: 192.168.0.205
+  stream-ip: 192.168.0.205
   # [必选选] zlm服务器的hook.admin_params=secret
   secret: TWSYFgYJOQWB4ftgeYut8DW4wbs7pQnj
   # 启用多端口模式, 多端口模式使用端口区分每路流，兼容性更好。 单端口使用流的ssrc区分， 点播超时建议使用多端口测试
@@ -90,9 +95,9 @@ media:
     # [可选] 是否启用多端口模式, 开启后会在portRange范围内选择端口用于媒体流传输
     enable: true
     # [可选] 在此范围内选择端口用于媒体流传输, 必须提前在zlm上配置该属性，不然自动配置此属性可能不成功
-    port-range: 50000,50300 # 端口范围
+    port-range: 30000,30500 # 端口范围
     # [可选] 国标级联在此范围内选择端口发送媒体流,
-    send-port-range: 50000,50300 # 端口范围
+    send-port-range: 30000,30500 # 端口范围
 # [根据业务需求配置]
 user-settings:
   # 点播/录像回放 等待超时时间,单位：毫秒

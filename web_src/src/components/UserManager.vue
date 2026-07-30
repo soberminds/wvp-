@@ -15,7 +15,6 @@
     <el-table :data="userList" style="width: 100%;font-size: 12px;" :height="winHeight"
               header-row-class-name="table-header">
       <el-table-column prop="username" label="用户名" min-width="160"/>
-      <el-table-column prop="pushKey" label="pushkey" min-width="160"/>
       <el-table-column prop="role.name" label="类型" min-width="160"/>
       <el-table-column label="操作" min-width="450" fixed="right">
         <template slot-scope="scope">

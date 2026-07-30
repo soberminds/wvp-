@@ -75,7 +75,6 @@ export default {
   },
   methods: {
     openDialog: function (row, callback) {
-      console.log(row)
       this.showDialog = true;
       this.listChangeCallback = callback;
       if (row != null) {
@@ -86,10 +85,10 @@ export default {
       this.$axios({
         method: 'post',
         url:"/api/user/changePasswordForAdmin",
-        params: {
+        data: new URLSearchParams({
           password: this.newPassword,
           userId: this.form.id,
-        }
+        })
       }).then((res)=> {
         if (res.data.code === 0) {
           this.$message({

@@ -1,7 +1,10 @@
 package com.genersoft.iot.vmp.conf.security.dto;
 
+import com.alibaba.fastjson2.annotation.JSONField;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.genersoft.iot.vmp.storager.dao.dto.Role;
 import com.genersoft.iot.vmp.storager.dao.dto.User;
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.security.core.CredentialsContainer;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.SpringSecurityCoreVersion;
@@ -39,6 +42,9 @@ public class LoginUser implements UserDetails, CredentialsContainer {
     }
 
     @Override
+    @JsonIgnore
+    @JSONField(serialize = false)
+    @Schema(hidden = true)
     public String getPassword() {
         return user.getPassword();
     }
@@ -100,6 +106,9 @@ public class LoginUser implements UserDetails, CredentialsContainer {
         return user.getRole();
     }
 
+    @JsonIgnore
+    @JSONField(serialize = false)
+    @Schema(hidden = true)
     public String getPushKey() {
         return user.getPushKey();
     }

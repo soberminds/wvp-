@@ -1,5 +1,9 @@
 package com.genersoft.iot.vmp.conf.security.dto;
 
+import com.alibaba.fastjson2.annotation.JSONField;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.swagger.v3.oas.annotations.media.Schema;
+
 public class JwtUser {
 
     public enum TokenStatus{
@@ -54,6 +58,9 @@ public class JwtUser {
         this.status = status;
     }
 
+    @JsonIgnore
+    @JSONField(serialize = false)
+    @Schema(hidden = true)
     public String getPassword() {
         return password;
     }
