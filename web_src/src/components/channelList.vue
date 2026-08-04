@@ -531,7 +531,7 @@ export default {
       this.$axios({
         method: 'post',
         url: `/api/device/query/channel/update/${this.deviceId}`,
-        params: row
+        data: this.buildChannelUpdateData(row)
       }).then(function (res) {
         console.log(JSON.stringify(res));
       });
@@ -619,16 +619,10 @@ export default {
         delete row.longitude;
         delete row.latitude;
       }
-      Object.keys(row).forEach(key => {
-        const value = row[key];
-        if (value === null || value === undefined || (typeof value === "string" && value.trim() === "")) {
-          delete row[key];
-        }
-      });
       this.$axios({
         method: 'post',
         url: `/api/device/query/channel/update/${this.deviceId}`,
-        params: row
+        data: this.buildChannelUpdateData(row)
       }).then(response => {
         if (response.data.code === 0) {
           this.$message.success("修改成功！");
@@ -639,6 +633,25 @@ export default {
       }).catch(_ => {
         this.$message.error("修改失败！");
       })
+    },
+    buildChannelUpdateData(row) {
+      const updateFields = [
+        "channelId",
+        "name",
+        "ptzType",
+        "hasAudio",
+        "customLongitude",
+        "customLatitude"
+      ];
+      const data = {};
+      updateFields.forEach(key => {
+        const value = row[key];
+        if (value !== null && value !== undefined &&
+          !(typeof value === "string" && value.trim() === "")) {
+          data[key] = value;
+        }
+      });
+      return new URLSearchParams(data);
     },
     // 是否正在编辑
     isEdit() {

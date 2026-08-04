@@ -1,5 +1,9 @@
 package com.genersoft.iot.vmp.web.gb28181.dto;
 
+import com.alibaba.fastjson2.annotation.JSONField;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.swagger.v3.oas.annotations.media.Schema;
+
 public class DeviceChannelExtend {
 
 
@@ -115,6 +119,9 @@ public class DeviceChannelExtend {
 	/**
 	 * 密码
 	 */
+	@JsonIgnore
+	@JSONField(serialize = false)
+	@Schema(hidden = true)
 	private String password;
 
 	/**

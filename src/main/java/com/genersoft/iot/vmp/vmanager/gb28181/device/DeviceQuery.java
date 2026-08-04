@@ -261,6 +261,9 @@ public class DeviceQuery {
 	@Parameter(name = "channel", description = "通道信息", required = true)
 	@PostMapping("/channel/update/{deviceId}")
 	public void updateChannel(@PathVariable String deviceId,DeviceChannel channel){
+		// Password is not an editable channel attribute. Ignore it for compatibility
+		// with older clients that may still send it as a query parameter.
+		channel.setPassword(null);
 		deviceChannelService.updateChannel(deviceId, channel);
 	}
 

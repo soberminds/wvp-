@@ -19,11 +19,11 @@ public interface DeviceChannelMapper {
 
     @Insert("INSERT INTO wvp_device_channel (channel_id, device_id, name, manufacture, model, owner, civil_code, block, " +
             "address, parental, parent_id, safety_way, register_way, cert_num, certifiable, err_code, secrecy, " +
-            "ip_address, port, password, ptz_type, status, stream_id, longitude, latitude, longitude_gcj02, latitude_gcj02, " +
+            "ip_address, port, ptz_type, status, stream_id, longitude, latitude, longitude_gcj02, latitude_gcj02, " +
             "longitude_wgs84, latitude_wgs84, has_audio, create_time, update_time, business_group_id, gps_time, stream_identification) " +
             "VALUES (#{channelId}, #{deviceId}, #{name}, #{manufacture}, #{model}, #{owner}, #{civilCode}, #{block}," +
             "#{address}, #{parental}, #{parentId}, #{safetyWay}, #{registerWay}, #{certNum}, #{certifiable}, #{errCode}, #{secrecy}, " +
-            "#{ipAddress}, #{port}, null, #{ptzType}, #{status}, #{streamId}, #{longitude}, #{latitude}, #{longitudeGcj02}, " +
+            "#{ipAddress}, #{port}, #{ptzType}, #{status}, #{streamId}, #{longitude}, #{latitude}, #{longitudeGcj02}, " +
             "#{latitudeGcj02}, #{longitudeWgs84}, #{latitudeWgs84}, #{hasAudio}, #{createTime}, #{updateTime}, #{businessGroupId}, #{gpsTime}, #{streamIdentification})")
     int add(DeviceChannel channel);
 
@@ -47,7 +47,6 @@ public interface DeviceChannelMapper {
             "<if test='secrecy != null'>, secrecy=#{secrecy}</if>" +
             "<if test='ipAddress != null'>, ip_address=#{ipAddress}</if>" +
             "<if test='port != null'>, port=#{port}</if>" +
-            ", password=null" +
             "<if test='ptzType != null'>, custom_ptz_type=#{ptzType}</if>" +
             "<if test='status != null'>, status=#{status}</if>" +
             "<if test='streamId != null'>, stream_id=#{streamId}</if>" +
@@ -86,7 +85,6 @@ public interface DeviceChannelMapper {
             "dc.secrecy, " +
             "dc.ip_address, " +
             "dc.port, " +
-            "dc.password, " +
             "COALESCE(dc.custom_ptz_type, dc.ptz_type) AS ptz_type, " +
             "dc.status, " +
             "dc.longitude, " +
@@ -130,7 +128,42 @@ public interface DeviceChannelMapper {
 
     @Select(value = {" <script>" +
             "SELECT " +
-            "dc.*, " +
+            "dc.id, " +
+            "dc.channel_id, " +
+            "dc.device_id, " +
+            "COALESCE(dc.custom_name, dc.name) AS name, " +
+            "dc.manufacture, " +
+            "dc.model, " +
+            "dc.owner, " +
+            "dc.civil_code, " +
+            "dc.block, " +
+            "dc.address, " +
+            "dc.parental, " +
+            "dc.parent_id, " +
+            "dc.safety_way, " +
+            "dc.register_way, " +
+            "dc.cert_num, " +
+            "dc.certifiable, " +
+            "dc.err_code, " +
+            "dc.end_time, " +
+            "dc.secrecy, " +
+            "dc.ip_address, " +
+            "dc.port, " +
+            "COALESCE(dc.custom_ptz_type, dc.ptz_type) AS ptz_type, " +
+            "dc.status, " +
+            "dc.longitude, " +
+            "dc.latitude, " +
+            "dc.longitude_gcj02, " +
+            "dc.latitude_gcj02, " +
+            "dc.longitude_wgs84, " +
+            "dc.latitude_wgs84, " +
+            "dc.sub_count, " +
+            "dc.stream_id, " +
+            "dc.has_audio, " +
+            "dc.create_time, " +
+            "dc.update_time, " +
+            "dc.business_group_id, " +
+            "dc.gps_time, " +
             "de.name as device_name, " +
             "de.on_line as device_online " +
             "from " +
@@ -154,7 +187,42 @@ public interface DeviceChannelMapper {
 
     @Select(value = {" <script>" +
             "SELECT " +
-            "dc.*, " +
+            "dc.id, " +
+            "dc.channel_id, " +
+            "dc.device_id, " +
+            "COALESCE(dc.custom_name, dc.name) AS name, " +
+            "dc.manufacture, " +
+            "dc.model, " +
+            "dc.owner, " +
+            "dc.civil_code, " +
+            "dc.block, " +
+            "dc.address, " +
+            "dc.parental, " +
+            "dc.parent_id, " +
+            "dc.safety_way, " +
+            "dc.register_way, " +
+            "dc.cert_num, " +
+            "dc.certifiable, " +
+            "dc.err_code, " +
+            "dc.end_time, " +
+            "dc.secrecy, " +
+            "dc.ip_address, " +
+            "dc.port, " +
+            "COALESCE(dc.custom_ptz_type, dc.ptz_type) AS ptz_type, " +
+            "dc.status, " +
+            "dc.longitude, " +
+            "dc.latitude, " +
+            "dc.longitude_gcj02, " +
+            "dc.latitude_gcj02, " +
+            "dc.longitude_wgs84, " +
+            "dc.latitude_wgs84, " +
+            "dc.sub_count, " +
+            "dc.stream_id, " +
+            "dc.has_audio, " +
+            "dc.create_time, " +
+            "dc.update_time, " +
+            "dc.business_group_id, " +
+            "dc.gps_time, " +
             "de.name as device_name, " +
             "de.on_line as device_online " +
             "from " +
@@ -244,7 +312,7 @@ public interface DeviceChannelMapper {
             "insert into wvp_device_channel " +
             "(channel_id, device_id, name, manufacture, model, owner, civil_code, block, sub_count, " +
             "  address, parental, parent_id, safety_way, register_way, cert_num, certifiable, err_code, secrecy, " +
-            "  ip_address,port,password,ptz_type,status,stream_id,longitude,latitude,longitude_gcj02,latitude_gcj02,"+
+            "  ip_address,port,ptz_type,status,stream_id,longitude,latitude,longitude_gcj02,latitude_gcj02,"+
             "  longitude_wgs84,latitude_wgs84,has_audio,create_time,update_time,business_group_id,gps_time,stream_identification)"+
             "values " +
             "<foreach collection='addChannels' index='index' item='item' separator=','> " +
@@ -252,7 +320,7 @@ public interface DeviceChannelMapper {
             "#{item.owner}, #{item.civilCode}, #{item.block},#{item.subCount}," +
             "#{item.address}, #{item.parental}, #{item.parentId}, #{item.safetyWay}, #{item.registerWay}, " +
             "#{item.certNum}, #{item.certifiable}, #{item.errCode}, #{item.secrecy}, " +
-            "#{item.ipAddress}, #{item.port}, null, #{item.ptzType}, #{item.status}, " +
+            "#{item.ipAddress}, #{item.port}, #{item.ptzType}, #{item.status}, " +
             "#{item.streamId}, #{item.longitude}, #{item.latitude},#{item.longitudeGcj02}, " +
             "#{item.latitudeGcj02},#{item.longitudeWgs84}, #{item.latitudeWgs84}, #{item.hasAudio}, now(), now(), " +
             "#{item.businessGroupId}, #{item.gpsTime}, #{item.streamIdentification}) " +
@@ -265,7 +333,7 @@ public interface DeviceChannelMapper {
             "insert into wvp_device_channel " +
             "(channel_id,device_id,name,manufacture,model,owner,civil_code,block,sub_count,"+
             "  address,parental,parent_id,safety_way,register_way,cert_num,certifiable,err_code,secrecy,"+
-            "  ip_address,port,password,ptz_type,status,stream_id,longitude,latitude,longitude_gcj02,latitude_gcj02,"+
+            "  ip_address,port,ptz_type,status,stream_id,longitude,latitude,longitude_gcj02,latitude_gcj02,"+
             "  longitude_wgs84,latitude_wgs84,has_audio,create_time,update_time,business_group_id,gps_time)"+
             "values " +
             "<foreach collection='addChannels' index='index' item='item' separator=','> " +
@@ -273,7 +341,7 @@ public interface DeviceChannelMapper {
             "#{item.owner}, #{item.civilCode}, #{item.block},#{item.subCount}," +
             "#{item.address}, #{item.parental}, #{item.parentId}, #{item.safetyWay}, #{item.registerWay}, " +
             "#{item.certNum}, #{item.certifiable}, #{item.errCode}, #{item.secrecy}, " +
-            "#{item.ipAddress}, #{item.port}, null, #{item.ptzType}, #{item.status}, " +
+            "#{item.ipAddress}, #{item.port}, #{item.ptzType}, #{item.status}, " +
             "#{item.streamId}, #{item.longitude}, #{item.latitude},#{item.longitudeGcj02}, " +
             "#{item.latitudeGcj02},#{item.longitudeWgs84}, #{item.latitudeWgs84}, #{item.hasAudio}, now(), now(), " +
             "#{item.businessGroupId}, #{item.gpsTime}) " +
@@ -298,7 +366,6 @@ public interface DeviceChannelMapper {
             "secrecy=VALUES(secrecy), " +
             "ip_address=VALUES(ip_address), " +
             "port=VALUES(port), " +
-            "password=null, " +
             "ptz_type=VALUES(ptz_type), " +
             "status=VALUES(status), " +
             "stream_id=VALUES(stream_id), " +
@@ -340,7 +407,6 @@ public interface DeviceChannelMapper {
             "<if test='item.secrecy != null'>, secrecy=#{item.secrecy}</if>" +
             "<if test='item.ipAddress != null'>, ip_address=#{item.ipAddress}</if>" +
             "<if test='item.port != null'>, port=#{item.port}</if>" +
-            ", password=null" +
             "<if test='item.ptzType != null'>, ptz_type=#{item.ptzType}</if>" +
             "<if test='item.status != null'>, status=#{item.status}</if>" +
             "<if test='item.streamId != null'>, stream_id=#{item.streamId}</if>" +
@@ -441,7 +507,7 @@ public interface DeviceChannelMapper {
 
     @Select("select dc.id, dc.channel_id, dc.device_id, COALESCE(dc.custom_name, dc.name) AS name, dc.manufacture,dc.model,dc.owner, pc.civil_code,dc.block, " +
             " dc.address, '0' as parental,'0' as channel_type, pc.id as parent_id, dc.safety_way, dc.register_way,dc.cert_num, dc.certifiable,  " +
-            " dc.err_code,dc.end_time, dc.secrecy,   dc.ip_address,  dc.port,  COALESCE(dc.custom_ptz_type, dc.ptz_type) AS ptz_type,  dc.password, dc.status, " +
+            " dc.err_code,dc.end_time, dc.secrecy,   dc.ip_address,  dc.port,  COALESCE(dc.custom_ptz_type, dc.ptz_type) AS ptz_type,  dc.status, " +
             " COALESCE(dc.custom_longitude, dc.longitude) AS longitude, COALESCE(dc.custom_latitude, dc.latitude) AS latitude,  pc.business_group_id " +
             " from wvp_device_channel dc" +
             " LEFT JOIN wvp_platform_gb_channel pgc on  dc.id = pgc.device_channel_id" +
@@ -524,7 +590,6 @@ public interface DeviceChannelMapper {
             "       secrecy,\n" +
             "       ip_address,\n" +
             "       port,\n" +
-            "       password,\n" +
             "       COALESCE(custom_ptz_type, ptz_type)   AS ptz_type,\n" +
             "       status,\n" +
             "       COALESCE(custom_longitude, longitude) AS longitude,\n" +

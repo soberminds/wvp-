@@ -1,5 +1,7 @@
 package com.genersoft.iot.vmp.gb28181.bean;
 
+import com.alibaba.fastjson2.annotation.JSONField;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 @Schema(description = "通道信息")
@@ -135,7 +137,9 @@ public class DeviceChannel {
 	/**
 	 * 密码
 	 */
-	@Schema(description = "密码")
+	@JsonIgnore
+	@JSONField(serialize = false)
+	@Schema(hidden = true)
 	private String password;
 
 	/**
