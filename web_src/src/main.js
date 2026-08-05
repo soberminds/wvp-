@@ -53,9 +53,12 @@ axios.interceptors.response.use((response) => {
   return response;
 }, (error) => {
   // 对响应错误做点什么
-  if (error.response.status === 401) {
+  if (error.response && error.response.status === 401) {
     console.log("Received 401 Response")
-    router.push('/login');
+    userService.clearUserInfo();
+    if (router.currentRoute.path !== '/login') {
+      router.push('/login');
+    }
   }
   return Promise.reject(error);
 });

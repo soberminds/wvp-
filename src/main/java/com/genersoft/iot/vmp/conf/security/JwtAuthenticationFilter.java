@@ -69,14 +69,12 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         // TODO 处理各个状态
         switch (jwtUser.getStatus()){
             case EXPIRED:
-                response.setStatus(400);
-                chain.doFilter(request, response);
+                response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
                 // 异常
                 return;
             case EXCEPTION:
                 // 过期
-                response.setStatus(400);
-                chain.doFilter(request, response);
+                response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
                 return;
             case EXPIRING_SOON:
                 // 即将过期

@@ -29,6 +29,7 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -43,12 +44,14 @@ public class JwtUtils implements InitializingBean {
 
     private static final String AUDIENCE = "Audience";
 
-    private static final String keyId = "3e79646c4dbc408383a9eed09f2b85ae";
+    private static final String USER_UPDATE_TIME_CLAIM = "userUpdateTime";
+
+    private static final String keyId = "ed30a655177542ada0cd6108be217f32";
 
     /**
      * token过期时间(分钟)
      */
-    public static final long EXPIRATION_TIME = 30 * 24 * 60;
+    public static final long EXPIRATION_TIME = 10;
 
     private static RsaJsonWebKey rsaJsonWebKey;
 
@@ -155,7 +158,12 @@ public class JwtUtils implements InitializingBean {
     }
 
     public static String createToken(String username) {
-        return createToken(username, EXPIRATION_TIME);
+        Map<String, Object> extra = new HashMap<>(1);
+        User user = userService.getUserByUsername(username);
+        if (user != null && user.getUpdateTime() != null) {
+            extra.put(USER_UPDATE_TIME_CLAIM, user.getUpdateTime());
+        }
+        return createToken(username, EXPIRATION_TIME, extra);
     }
 
     public static String getHeader() {
@@ -202,6 +210,13 @@ public class JwtUtils implements InitializingBean {
 
             String username = (String) claims.getClaimValue("userName");
             User user = userService.getUserByUsername(username);
+
+            String tokenUserUpdateTime = claims.getClaimValue(USER_UPDATE_TIME_CLAIM, String.class);
+            if (apiKeyId == null && (tokenUserUpdateTime == null || user == null
+                    || !tokenUserUpdateTime.equals(user.getUpdateTime()))) {
+                jwtUser.setStatus(JwtUser.TokenStatus.EXPIRED);
+                return jwtUser;
+            }
 
             jwtUser.setUserName(username);
             jwtUser.setPassword(user.getPassword());
