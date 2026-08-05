@@ -97,19 +97,20 @@ export default {
           password: this.newPassword
         })
       }).then((res)=> {
-        if (res.data.code === 0) {
+        const responseData = res.data;
+        const requestSucceeded = res.status >= 200 && res.status < 300
+          && (!responseData || typeof responseData.code === 'undefined' || responseData.code === 0);
+        if (requestSucceeded) {
           this.$message({
             showClose: true,
             message: '修改成功，请重新登录',
             type: 'success'
           });
+          userService.clearUserInfo();
           this.showDialog = false;
-          setTimeout(()=>{
             // 删除cookie，回到登录页面
             userService.clearUserInfo();
-            this.$router.push('/login');
-            this.sseSource.close();
-          },800)
+          this.$router.replace('/login');
         }else {
           this.$message({
             showClose: true,
