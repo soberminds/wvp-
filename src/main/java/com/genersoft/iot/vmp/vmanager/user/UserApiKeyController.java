@@ -18,15 +18,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
-import java.util.Map;
 
 @Tag(name = "用户ApiKey管理")
 @RestController
 @RequestMapping("/api/userApiKey")
 public class UserApiKeyController {
 
-    public static final int EXPIRATION_TIME = Integer.MAX_VALUE;
     @Autowired
     private IUserService userService;
 
@@ -47,27 +44,28 @@ public class UserApiKeyController {
     @Parameter(name = "userId", description = "用户Id", required = true)
     @Parameter(name = "app", description = "应用名称", required = false)
     @Parameter(name = "remark", description = "备注信息", required = false)
-    @Parameter(name = "expiredAt", description = "过期时间（不传代表永不过期）", required = false)
+    @Parameter(name = "expiredAt", description = "过期时间（必填，最长90天）", required = true)
     @Transactional
-    public synchronized void add(
+    public synchronized String add(
             @RequestParam(required = true) int userId,
             @RequestParam(required = false) String app,
             @RequestParam(required = false) String remark,
             @RequestParam(required = false) String expiresAt,
             @RequestParam(required = false) Boolean enable
     ) {
+        SecurityUtils.requireAdminLoginToken();
         User user = userService.getUserById(userId);
         if (user == null) {
             throw new ControllerException(ErrorCode.ERROR400.getCode(), "用户不存在");
         }
 
-        Long expirationTime = null;
-        if (expiresAt != null) {
-            long timestamp = DateUtil.yyyy_MM_dd_HH_mm_ssToTimestampMs(expiresAt);
-            expirationTime = (timestamp - System.currentTimeMillis()) / (60 * 1000);
-            if (expirationTime < 0) {
-                throw new ControllerException(ErrorCode.ERROR400.getCode(), "过期时间不能早于当前时间");
-            }
+        if (expiresAt == null) {
+            throw new ControllerException(ErrorCode.ERROR400.getCode(), "必须设置ApiKey过期时间");
+        }
+        long expirationTimestamp = DateUtil.yyyy_MM_dd_HH_mm_ssToTimestampMs(expiresAt);
+        long expirationTime = (expirationTimestamp - System.currentTimeMillis()) / (60 * 1000);
+        if (expirationTime <= 0 || expirationTime > JwtUtils.MAX_API_KEY_EXPIRATION_MINUTES) {
+            throw new ControllerException(ErrorCode.ERROR400.getCode(), "ApiKey有效期必须在1分钟至90天之间");
         }
 
         UserApiKey userApiKey = new UserApiKey();
@@ -75,7 +73,7 @@ public class UserApiKeyController {
         userApiKey.setApp(app);
         userApiKey.setApiKey(null);
         userApiKey.setRemark(remark);
-        userApiKey.setExpiredAt(expirationTime != null ? expirationTime : 0);
+        userApiKey.setExpiredAt(expirationTimestamp);
         userApiKey.setEnable(enable != null ? enable : false);
         userApiKey.setCreateTime(DateUtil.getNow());
         userApiKey.setUpdateTime(DateUtil.getNow());
@@ -87,17 +85,18 @@ public class UserApiKeyController {
         }
 
         String apiKey;
+        String apiKeyFingerprint;
         do {
-            Map<String, Object> extra = new HashMap<>(1);
-            extra.put("apiKeyId", userApiKey.getId());
-            apiKey = JwtUtils.createToken(user.getUsername(), expirationTime, extra);
-        } while (userApiKeyService.isApiKeyExists(apiKey));
+            apiKey = JwtUtils.createApiKeyToken(user.getUsername(), expirationTime, userApiKey.getId());
+            apiKeyFingerprint = JwtUtils.fingerprintApiKey(apiKey);
+        } while (userApiKeyService.isApiKeyExists(apiKeyFingerprint));
 
-        int resetResult = userApiKeyService.reset(userApiKey.getId(), apiKey);
+        int resetResult = userApiKeyService.reset(userApiKey.getId(), apiKeyFingerprint);
 
         if (resetResult <= 0) {
             throw new ControllerException(ErrorCode.ERROR100);
         }
+        return apiKey;
     }
 
     /**
@@ -113,6 +112,7 @@ public class UserApiKeyController {
     @Parameter(name = "count", description = "每页查询数量", required = true)
     @Transactional
     public PageInfo<UserApiKey> userApiKeys(@RequestParam(required = true) int page, @RequestParam(required = true) int count) {
+        SecurityUtils.requireAdminLoginToken();
         return userApiKeyService.getUserApiKeys(page, count);
     }
 
@@ -121,6 +121,7 @@ public class UserApiKeyController {
     @Parameter(name = "id", description = "用户ApiKeyId", required = true)
     @Transactional
     public void enable(@RequestParam(required = true) Integer id) {
+        SecurityUtils.requireAdminLoginToken();
         // 获取当前登录用户id
         int currenRoleId = SecurityUtils.getUserInfo().getRole().getId();
         if (currenRoleId != 1) {
@@ -144,6 +145,7 @@ public class UserApiKeyController {
     @Parameter(name = "id", description = "用户ApiKeyId", required = true)
     @Transactional
     public void disable(@RequestParam(required = true) Integer id) {
+        SecurityUtils.requireAdminLoginToken();
         // 获取当前登录用户id
         int currenRoleId = SecurityUtils.getUserInfo().getRole().getId();
         if (currenRoleId != 1) {
@@ -166,7 +168,8 @@ public class UserApiKeyController {
     @Operation(summary = "重置用户ApiKey", security = @SecurityRequirement(name = JwtUtils.HEADER))
     @Parameter(name = "id", description = "用户ApiKeyId", required = true)
     @Transactional
-    public void reset(@RequestParam(required = true) Integer id) {
+    public String reset(@RequestParam(required = true) Integer id) {
+        SecurityUtils.requireAdminLoginToken();
         // 获取当前登录用户id
         int currenRoleId = SecurityUtils.getUserInfo().getRole().getId();
         if (currenRoleId != 1) {
@@ -181,26 +184,27 @@ public class UserApiKeyController {
         if (user == null) {
             throw new ControllerException(ErrorCode.ERROR400.getCode(), "用户不存在");
         }
-        Long expirationTime = null;
-        if (userApiKey.getExpiredAt() > 0) {
-            long timestamp = userApiKey.getExpiredAt();
-            expirationTime = (timestamp - System.currentTimeMillis()) / (60 * 1000);
-            if (expirationTime < 0) {
-                throw new ControllerException(ErrorCode.ERROR400.getCode(), "ApiKey已失效");
-            }
+        if (userApiKey.getExpiredAt() <= 0) {
+            throw new ControllerException(ErrorCode.ERROR400.getCode(),
+                    "旧版永久ApiKey禁止重置，请删除后重新创建");
+        }
+        long expirationTime = (userApiKey.getExpiredAt() - System.currentTimeMillis()) / (60 * 1000);
+        if (expirationTime <= 0 || expirationTime > JwtUtils.MAX_API_KEY_EXPIRATION_MINUTES) {
+            throw new ControllerException(ErrorCode.ERROR400.getCode(), "ApiKey已失效或有效期不合法");
         }
         String apiKey;
+        String apiKeyFingerprint;
         do {
-            Map<String, Object> extra = new HashMap<>(1);
-            extra.put("apiKeyId", userApiKey.getId());
-            apiKey = JwtUtils.createToken(user.getUsername(), expirationTime, extra);
-        } while (userApiKeyService.isApiKeyExists(apiKey));
+            apiKey = JwtUtils.createApiKeyToken(user.getUsername(), expirationTime, userApiKey.getId());
+            apiKeyFingerprint = JwtUtils.fingerprintApiKey(apiKey);
+        } while (userApiKeyService.isApiKeyExists(apiKeyFingerprint));
 
-        int resetResult = userApiKeyService.reset(id, apiKey);
+        int resetResult = userApiKeyService.reset(id, apiKeyFingerprint);
 
         if (resetResult <= 0) {
             throw new ControllerException(ErrorCode.ERROR100);
         }
+        return apiKey;
     }
 
     @PostMapping("/remark")
@@ -209,6 +213,7 @@ public class UserApiKeyController {
     @Parameter(name = "remark", description = "用户ApiKey备注", required = false)
     @Transactional
     public void remark(@RequestParam(required = true) Integer id, @RequestParam(required = false) String remark) {
+        SecurityUtils.requireAdminLoginToken();
         // 获取当前登录用户id
         int currenRoleId = SecurityUtils.getUserInfo().getRole().getId();
         if (currenRoleId != 1) {
@@ -231,6 +236,7 @@ public class UserApiKeyController {
     @Parameter(name = "id", description = "用户ApiKeyId", required = true)
     @Transactional
     public void delete(@RequestParam(required = true) Integer id) {
+        SecurityUtils.requireAdminLoginToken();
         // 获取当前登录用户id
         int currenRoleId = SecurityUtils.getUserInfo().getRole().getId();
         if (currenRoleId != 1) {

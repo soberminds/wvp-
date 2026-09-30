@@ -68,7 +68,7 @@ export default {
       form: {
         app: null,
         enable: true,
-        expiresAt: null,
+        expiresAt: this.defaultExpiresAt(),
         remark: null
       },
       rules: {
@@ -80,11 +80,16 @@ export default {
     };
   },
   methods: {
+    defaultExpiresAt() {
+      const date = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
+      const pad = value => String(value).padStart(2, '0')
+      return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
+    },
     resetForm() {
       this.form = {
         app: null,
         enable: true,
-        expiresAt: null,
+        expiresAt: this.defaultExpiresAt(),
         remark: null
       }
     },
@@ -111,7 +116,7 @@ export default {
             if (res.data.code === 0) {
               this.$message({
                 showClose: true,
-                message: '添加成功',
+                message: 'ApiKey已生成，请立即保存：' + res.data.data,
                 type: 'success'
               });
               this.showDialog = false

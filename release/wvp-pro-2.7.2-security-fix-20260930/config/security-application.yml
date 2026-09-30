@@ -1,0 +1,10 @@
+# Merge this section into the external WVP application.yml.
+security:
+  jwt:
+    # Keep this file outside the JAR, back it up securely, and restrict it to the service account.
+    key-file: ./config/jwt-private.jwk
+
+user-settings:
+  # Authentication is enforced by code in this release. Keep these values explicit for auditing.
+  interface-authentication: true
+  interface-authentication-excludes: []

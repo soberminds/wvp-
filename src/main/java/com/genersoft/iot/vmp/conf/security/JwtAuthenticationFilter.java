@@ -7,16 +7,18 @@ import com.genersoft.iot.vmp.storager.dao.dto.User;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * jwt token 过滤器
@@ -44,19 +46,14 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             return;
         }
 
-        if (!userSetting.isInterfaceAuthentication()) {
-            UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(null, null, new ArrayList<>() );
-            SecurityContextHolder.getContext().setAuthentication(token);
-            chain.doFilter(request, response);
-            return;
-        }
         String jwt = request.getHeader(JwtUtils.getHeader());
-        // 这里如果没有jwt，继续往后走，因为后面还有鉴权管理器等去判断是否拥有身份凭证，所以是可以放行的
-        // 没有jwt相当于匿名访问，若有一些接口是需要权限的，则不能访问这些接口
+        String tokenType = JwtUtils.TOKEN_TYPE_LOGIN;
         if (StringUtils.isBlank(jwt)) {
-            jwt = request.getParameter(JwtUtils.getHeader());
+            jwt = request.getHeader(JwtUtils.getApiKeyHeader());
+            tokenType = JwtUtils.TOKEN_TYPE_API_KEY;
             if (StringUtils.isBlank(jwt)) {
-                jwt = request.getHeader(JwtUtils.getApiKeyHeader());
+                jwt = resolvePathRestrictedToken(request, requestURI);
+                tokenType = JwtUtils.TOKEN_TYPE_LOGIN;
                 if (StringUtils.isBlank(jwt)) {
                     chain.doFilter(request, response);
                     return;
@@ -64,8 +61,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             }
         }
 
-        JwtUser jwtUser = JwtUtils.verifyToken(jwt);
-        String username = jwtUser.getUserName();
+        JwtUser jwtUser = JwtUtils.verifyToken(jwt, tokenType);
         // TODO 处理各个状态
         switch (jwtUser.getStatus()){
             case EXPIRED:
@@ -77,8 +73,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
                 return;
             case EXPIRING_SOON:
-                // 即将过期
-//                return;
             default:
         }
 
@@ -90,9 +84,37 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         Role role = new Role();
         role.setId(jwtUser.getRoleId());
         user.setRole(role);
-        UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(user, jwtUser.getPassword(), new ArrayList<>() );
+        String authority = JwtUtils.TOKEN_TYPE_API_KEY.equals(tokenType)
+                ? SecurityUtils.API_KEY_AUTHORITY
+                : SecurityUtils.LOGIN_TOKEN_AUTHORITY;
+        UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(
+                user, jwtUser.getPassword(),
+                Collections.singletonList(new SimpleGrantedAuthority(authority)));
         SecurityContextHolder.getContext().setAuthentication(token);
         chain.doFilter(request, response);
+    }
+
+    private String resolvePathRestrictedToken(HttpServletRequest request, String requestURI) {
+        if (!"GET".equalsIgnoreCase(request.getMethod())) {
+            return null;
+        }
+        String cookieName = null;
+        if (requestURI.startsWith("/api/device/query/snap/")) {
+            cookieName = JwtUtils.SNAPSHOT_COOKIE;
+        } else if (requestURI.startsWith("/record_proxy/")) {
+            cookieName = JwtUtils.RECORD_COOKIE;
+        } else if (requestURI.equals("/api/emit")) {
+            cookieName = JwtUtils.SSE_COOKIE;
+        }
+        if (cookieName == null || request.getCookies() == null) {
+            return null;
+        }
+        for (Cookie cookie : request.getCookies()) {
+            if (cookieName.equals(cookie.getName())) {
+                return cookie.getValue();
+            }
+        }
+        return null;
     }
 
 }

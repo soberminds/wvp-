@@ -2,13 +2,10 @@ package com.genersoft.iot.vmp.web.gb28181;
 
 import com.alibaba.fastjson2.JSONObject;
 import com.genersoft.iot.vmp.conf.SipConfig;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * API兼容：系统接口
@@ -17,8 +14,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RequestMapping(value = "/api/v1")
 public class ApiController {
-
-    private final static Logger logger = LoggerFactory.getLogger(ApiController.class);
 
     @Autowired
     private SipConfig sipConfig;
@@ -78,30 +73,4 @@ public class ApiController {
         return null;
     }
 
-    /**
-     *  系统接口 - 登录
-     * @param username 用户名
-     * @param password 密码(经过md5加密,32位长度,不带中划线,不区分大小写)
-     * @return
-     */
-    @GetMapping(value = "/login")
-    @ResponseBody
-    private JSONObject login(String username,String password ){
-        if (logger.isDebugEnabled()) {
-            logger.debug(String.format("模拟接口> 登录 API调用，username：%s ，password：%s ",
-                    username, password));
-        }
-
-        JSONObject result = new JSONObject();
-        result.put("CookieToken","ynBDDiKMg");
-        result.put("URLToken","MOBkORkqnrnoVGcKIAHXppgfkNWRdV7utZSkDrI448Q.oxNjAxNTM4NDk3LCJwIjoiZGJjODg5NzliNzVj" +
-                "Nzc2YmU5MzBjM2JjNjg1ZWFiNGI5ZjhhN2Y0N2RlZjg3NWUyOTJkY2VkYjkwYmEwMTA0NyIsInQiOjE2MDA5MzM2OTcsInUiOiI" +
-                "4ODlkZDYyM2ViIn0eyJlIj.GciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJhb");
-        result.put("TokenTimeout",604800);
-        result.put("AuthToken","MOBkORkqnrnoVGcKIAHXppgfkNWRdV7utZSkDrI448Q.oxNjAxNTM4NDk3LCJwIjoiZGJjODg5NzliNzVj" +
-                "Nzc2YmU5MzBjM2JjNjg1ZWFiNGI5ZjhhN2Y0N2RlZjg3NWUyOTJkY2VkYjkwYmEwMTA0NyIsInQiOjE2MDA5MzM2OTcsInUiOiI" +
-                "4ODlkZDYyM2ViIn0eyJlIj.GciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJhb");
-        result.put("Token","ynBDDiKMg");
-        return result;
-    }
 }

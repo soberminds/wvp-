@@ -36,7 +36,10 @@ RUN cd /home && \
         git clone "${gitUrl}/maven.git" && \
         cp maven/settings.xml /usr/share/maven/conf/
 
-COPY wvp-pro-2.7.2-deploy/*.jar /opt/wvp/
+COPY . /home/wvp
+RUN cd /home/wvp && \
+        mvn clean package && \
+        cp target/wvp-pro-*.jar /opt/wvp/
 COPY src/main/resources/application-docker.yml /opt/wvp/config/application.yml
 
 RUN cd /home && \

@@ -38,7 +38,18 @@ public class UserApiKeyServiceImpl implements IUserApiKeyService {
     public PageInfo<UserApiKey> getUserApiKeys(int page, int count) {
         PageHelper.startPage(page, count);
         List<UserApiKey> userApiKeys = userApiKeyMapper.getUserApiKeys();
+        userApiKeys.forEach(item -> item.setApiKey(maskApiKey(item.getApiKey())));
         return new PageInfo<>(userApiKeys);
+    }
+
+    private String maskApiKey(String apiKey) {
+        if (apiKey != null && apiKey.startsWith("sha256:")) {
+            return "********";
+        }
+        if (apiKey == null || apiKey.length() < 16) {
+            return "********";
+        }
+        return apiKey.substring(0, 8) + "..." + apiKey.substring(apiKey.length() - 8);
     }
 
     @Cacheable(cacheNames = "userApiKey", key = "#id", sync = true)

@@ -35,9 +35,9 @@ public class UserApiKey implements Serializable {
     private String apiKey;
 
     /**
-     * 过期时间（null=永不过期）
+     * 过期时间（毫秒时间戳）
      */
-    @Schema(description = "过期时间（null=永不过期）")
+    @Schema(description = "过期时间（毫秒时间戳）")
     private long expiredAt;
 
     /**

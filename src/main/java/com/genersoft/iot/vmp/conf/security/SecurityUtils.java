@@ -1,18 +1,24 @@
 package com.genersoft.iot.vmp.conf.security;
 
 import com.genersoft.iot.vmp.conf.security.dto.LoginUser;
+import com.genersoft.iot.vmp.conf.exception.ControllerException;
 import com.genersoft.iot.vmp.storager.dao.dto.User;
+import com.genersoft.iot.vmp.vmanager.bean.ErrorCode;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import javax.security.sasl.AuthenticationException;
+import org.springframework.security.core.AuthenticationException;
 import java.time.LocalDateTime;
 
 public class SecurityUtils {
+
+    public static final String LOGIN_TOKEN_AUTHORITY = "TOKEN_LOGIN";
+    public static final String API_KEY_AUTHORITY = "TOKEN_API_KEY";
 
     /**
      * 描述根据账号密码进行调用security进行认证授权 主动调
@@ -31,7 +37,7 @@ public class SecurityUtils {
         Authentication authenticate = authenticationManager.authenticate(token);
         LoginUser user = (LoginUser) authenticate.getPrincipal();
 
-        SecurityContextHolder.getContext().setAuthentication(token);
+        SecurityContextHolder.getContext().setAuthentication(authenticate);
 
         return user;
     }
@@ -69,6 +75,32 @@ public class SecurityUtils {
     public static int getUserId(){
         LoginUser user = getUserInfo();
         return user.getId();
+    }
+
+    public static LoginUser requireAdmin() {
+        LoginUser user = getUserInfo();
+        if (user == null || user.getRole() == null || user.getRole().getId() != 1) {
+            throw new ControllerException(ErrorCode.ERROR403);
+        }
+        return user;
+    }
+
+    public static LoginUser requireLoginToken() {
+        Authentication authentication = getAuthentication();
+        if (authentication == null || authentication.getAuthorities().stream()
+                .map(GrantedAuthority::getAuthority)
+                .noneMatch(LOGIN_TOKEN_AUTHORITY::equals)) {
+            throw new ControllerException(ErrorCode.ERROR403.getCode(), "此操作必须使用网页登录凭据");
+        }
+        return getUserInfo();
+    }
+
+    public static LoginUser requireAdminLoginToken() {
+        LoginUser user = requireLoginToken();
+        if (user == null || user.getRole() == null || user.getRole().getId() != 1) {
+            throw new ControllerException(ErrorCode.ERROR403);
+        }
+        return user;
     }
 
     /**

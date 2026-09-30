@@ -16,7 +16,6 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.cors.CorsConfiguration;
@@ -106,7 +105,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers(HttpMethod.OPTIONS, "/**").denyAll()
-                .antMatchers(userSetting.getInterfaceAuthenticationExcludes().toArray(new String[0])).permitAll()
                 .antMatchers(
                         "/",
                         "/index.html",
@@ -115,10 +113,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/favicon.ico",
                         "/api/user/login",
                         "/index/hook/**",
-                        "/index/hook/abl/**",
-                        "/api/device/query/snap/**",
-                        "/record_proxy/*/**",
-                        "/api/emit")
+                        "/index/hook/abl/**")
                 .permitAll()
                 .anyRequest().authenticated()
                 // 异常处理器
@@ -156,9 +151,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     /**
      * 描述: 密码加密算法 BCrypt 推荐使用
      **/
+    @Autowired
+    private WvpPasswordEncoder wvpPasswordEncoder;
+
     @Bean
-    public BCryptPasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
+    public org.springframework.security.crypto.password.PasswordEncoder passwordEncoder() {
+        return wvpPasswordEncoder;
     }
 
     /**

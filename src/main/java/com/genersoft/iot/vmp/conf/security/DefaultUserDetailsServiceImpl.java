@@ -38,8 +38,6 @@ public class DefaultUserDetailsServiceImpl implements UserDetailsService {
             logger.info("登录用户：{} 不存在", username);
             throw new UsernameNotFoundException("登录用户：" + username + " 不存在");
         }
-        String password = SecurityUtils.encryptPassword(user.getPassword());
-        user.setPassword(password);
         return new LoginUser(user, LocalDateTime.now());
     }
 

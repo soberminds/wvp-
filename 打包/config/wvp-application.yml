@@ -51,6 +51,11 @@ spring:
 #  helper-dialect: postgresql
 
 #[可选] WVP监听的HTTP端口, 网页和接口调用都是这个端口
+security:
+    jwt:
+        # JWT私钥放在JAR外部；请备份并限制为服务账号可读写
+        key-file: ./config/jwt-private.jwk
+
 server:
     port: 18080
 
@@ -103,11 +108,7 @@ user-settings:
     server-id: 741266
     auto-apply-play: true
     interface-authentication: true
-    interface-authentication-excludes:
-        - /api/v1/**
-        - /api/media/stream_info_by_app_and_stream
-        - /api/v1/control/ptz
-        - /api/cloud/record/*/**
+    interface-authentication-excludes: []
     # 推流直播是否录制
     record-push-live: true
     # 国标是否录制
@@ -118,5 +119,3 @@ user-settings:
     sync-channel-on-device-online: false
      # 消息通道功能-缺少国标ID是否给所有上级发送消息
     send-to-platforms-when-id-lost: false
-
-

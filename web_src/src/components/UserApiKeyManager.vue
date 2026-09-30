@@ -18,7 +18,6 @@
       <el-table-column label="ApiKey" :show-overflow-tooltip="true" min-width="300">
         <template #default="scope">
 <!--          <el-button style="float: right;" type="primary" size="mini" icon="el-icon-document-copy"  title="点击拷贝" v-clipboard="scope.row.apiKey" @success="$message({type:'success', message:'成功拷贝到粘贴板'})"></el-button>-->
-          <i class="cpoy-btn el-icon-document-copy"  title="点击拷贝" v-clipboard="scope.row.apiKey" @success="$message({type:'success', message:'成功拷贝到粘贴板'})"></i>
           <span>{{scope.row.apiKey}}</span>
 
         </template>
@@ -250,6 +249,7 @@ export default {
             message: '重置成功',
             type: 'success'
           });
+          this.$alert('新ApiKey：' + res.data.data, '请立即保存', {confirmButtonText: '确定'});
           this.getUserApiKeyList();
         }).catch((error) => {
           this.$message({

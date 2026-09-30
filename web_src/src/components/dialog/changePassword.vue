@@ -34,7 +34,6 @@
 </template>
 
 <script>
-import crypto from 'crypto'
 import userService from "../service/UserService";
 export default {
   name: "changePassword",
@@ -93,7 +92,7 @@ export default {
         method: 'post',
         url:"/api/user/changePassword",
         data: new URLSearchParams({
-          oldPassword: crypto.createHash('md5').update(this.oldPassword, "utf8").digest('hex'),
+          oldPassword: this.oldPassword,
           password: this.newPassword
         })
       }).then((res)=> {

@@ -31,6 +31,7 @@ public class RoleController {
     @Parameter(name = "authority", description = "权限（自行定义内容，目前未使用）", required = true)
     public void add(@RequestParam String name,
                                                   @RequestParam(required = false) String authority){
+        SecurityUtils.requireAdminLoginToken();
         // 获取当前登录用户id
         int currenRoleId = SecurityUtils.getUserInfo().getRole().getId();
         if (currenRoleId != 1) {
@@ -54,6 +55,7 @@ public class RoleController {
     @Operation(summary = "删除角色", security = @SecurityRequirement(name = JwtUtils.HEADER))
     @Parameter(name = "id", description = "用户Id", required = true)
     public void delete(@RequestParam Integer id){
+        SecurityUtils.requireAdminLoginToken();
         // 获取当前登录用户id
         int currenRoleId = SecurityUtils.getUserInfo().getRole().getId();
         if (currenRoleId != 1) {
@@ -70,6 +72,7 @@ public class RoleController {
     @GetMapping("/all")
     @Operation(summary = "查询角色", security = @SecurityRequirement(name = JwtUtils.HEADER))
     public List<Role> all(){
+        SecurityUtils.requireLoginToken();
         // 获取当前登录用户id
         List<Role> allRoles = roleService.getAll();
         return roleService.getAll();

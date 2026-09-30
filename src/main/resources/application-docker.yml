@@ -38,6 +38,11 @@ spring:
                         max-lifetime: 1200000                 # 是池中连接关闭后的最长生命周期（以毫秒为单位)
 
 # [可选] WVP监听的HTTP端口, 网页和接口调用都是这个端口
+security:
+    jwt:
+        # JWT私钥必须持久化到容器外，并限制为服务账号可读写
+        key-file: ${JWT_KEY_FILE:/opt/wvp/config/jwt-private.jwk}
+
 server:
     port: 18080
 

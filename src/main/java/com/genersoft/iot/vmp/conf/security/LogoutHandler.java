@@ -23,5 +23,13 @@ public class LogoutHandler implements LogoutSuccessHandler {
     public void onLogoutSuccess(HttpServletRequest request, HttpServletResponse httpServletResponse, Authentication authentication) throws IOException, ServletException {
         String username = request.getParameter("username");
         logger.info("[退出登录成功] - [{}]", username);
+        clearCookie(httpServletResponse, JwtUtils.SNAPSHOT_COOKIE, "/api/device/query/snap");
+        clearCookie(httpServletResponse, JwtUtils.RECORD_COOKIE, "/record_proxy");
+        clearCookie(httpServletResponse, JwtUtils.SSE_COOKIE, "/api/emit");
+    }
+
+    private void clearCookie(HttpServletResponse response, String name, String path) {
+        response.addHeader("Set-Cookie", name + "=; Path=" + path
+                + "; Max-Age=0; HttpOnly; Secure; SameSite=Strict");
     }
 }
