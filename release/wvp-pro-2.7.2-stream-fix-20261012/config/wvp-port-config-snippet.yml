@@ -1,0 +1,14 @@
+# 服务器上现有 application.yml / application-dev.yml 只需要改 media.rtp 下这两行
+# 收流端口：600 个；推流/国标级联发送端口：800 个；两者不要重叠
+media:
+  rtp:
+    enable: true
+    port-range: 30000,30599
+    send-port-range: 50000,50799
+
+# ZLM 的 config.ini 建议同步修改（[rtp_proxy] 段）：
+# port_range=30000-30599
+#
+# 防火墙/安全组放行（TCP 与 UDP 都要）：
+# 30000-30599
+# 50000-50799

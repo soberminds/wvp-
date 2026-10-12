@@ -25,6 +25,8 @@ public class MediaInfo {
     private Integer readerCount;
     @Schema(description = "视频编码类型")
     private String videoCodec;
+    @Schema(description = "视频轨道是否已就绪")
+    private Boolean videoTrackReady;
     @Schema(description = "视频宽度")
     private Integer width;
     @Schema(description = "视频高度")
@@ -78,7 +80,7 @@ public class MediaInfo {
             mediaInfo.setBytesSpeed(bytesSpeed);
         }
         JSONArray jsonArray = jsonObject.getJSONArray("tracks");
-        if (jsonArray.isEmpty()) {
+        if (jsonArray == null || jsonArray.isEmpty()) {
             return null;
         }
         for (int i = 0; i < jsonArray.size(); i++) {
@@ -88,7 +90,8 @@ public class MediaInfo {
             Integer codecType = trackJson.getInteger("codec_type");
             Integer sampleRate = trackJson.getInteger("sample_rate");
             Integer height = trackJson.getInteger("height");
-            Integer width = trackJson.getInteger("height");
+            Integer width = trackJson.getInteger("width");
+            Boolean trackReady = trackJson.getBoolean("ready");
             Long duration = trackJson.getLongValue("duration");
             if (channels != null) {
                 mediaInfo.setAudioChannels(channels);
@@ -109,9 +112,11 @@ public class MediaInfo {
                 switch (codecId) {
                     case 0:
                         mediaInfo.setVideoCodec("H264");
+                        mediaInfo.setVideoTrackReady(trackReady);
                         break;
                     case 1:
                         mediaInfo.setVideoCodec("H265");
+                        mediaInfo.setVideoTrackReady(trackReady);
                         break;
                     case 2:
                         mediaInfo.setAudioCodec("AAC");
@@ -148,9 +153,11 @@ public class MediaInfo {
             switch (mediaTrack.getCodec_id()) {
                 case 0:
                     mediaInfo.setVideoCodec("H264");
+                    mediaInfo.setVideoTrackReady(mediaTrack.isReady());
                     break;
                 case 1:
                     mediaInfo.setVideoCodec("H265");
+                    mediaInfo.setVideoTrackReady(mediaTrack.isReady());
                     break;
                 case 2:
                     mediaInfo.setAudioCodec("AAC");
@@ -192,6 +199,18 @@ public class MediaInfo {
 
     public void setVideoCodec(String videoCodec) {
         this.videoCodec = videoCodec;
+    }
+
+    public Boolean getVideoTrackReady() {
+        return videoTrackReady;
+    }
+
+    public void setVideoTrackReady(Boolean videoTrackReady) {
+        this.videoTrackReady = videoTrackReady;
+    }
+
+    public boolean hasUsableVideoTrack() {
+        return videoCodec != null && (videoTrackReady == null || videoTrackReady);
     }
 
     public Integer getWidth() {

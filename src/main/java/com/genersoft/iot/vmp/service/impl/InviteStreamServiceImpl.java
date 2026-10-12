@@ -19,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.EventListener;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -34,6 +35,8 @@ public class InviteStreamServiceImpl implements IInviteStreamService {
     private final Logger logger = LoggerFactory.getLogger(InviteStreamServiceImpl.class);
 
     private final Map<String, List<ErrorCallback<Object>>> inviteErrorCallbackMap = new ConcurrentHashMap<>();
+
+    private final Map<String, Long> inviteErrorCallbackTimeMap = new ConcurrentHashMap<>();
 
     @Autowired
     private RedisTemplate<Object, Object> redisTemplate;
@@ -211,7 +214,7 @@ public class InviteStreamServiceImpl implements IInviteStreamService {
                     continue;
                 }
                 redisTemplate.delete(key);
-                inviteErrorCallbackMap.remove(buildKey(type, deviceId, channelId, inviteInfo.getStream()));
+                removeInviteCallbacks(type, deviceId, channelId, inviteInfo.getStream());
             }
         }
     }
@@ -235,6 +238,7 @@ public class InviteStreamServiceImpl implements IInviteStreamService {
             inviteErrorCallbackMap.put(key, callbacks);
         }
         callbacks.add(callback);
+        inviteErrorCallbackTimeMap.put(key, System.currentTimeMillis());
 
     }
 
@@ -286,16 +290,29 @@ public class InviteStreamServiceImpl implements IInviteStreamService {
             callback.run(code, msg, data);
         }
         inviteErrorCallbackMap.remove(key);
+        inviteErrorCallbackTimeMap.remove(key);
     }
 
 
     private String buildSubStreamKey(InviteSessionType type, String deviceId, String channelId, String stream) {
-        String key = type + ":" + ":" +  deviceId + ":" + channelId;
-        // 如果ssrc为null那么可以实现一个通道只能一次操作，ssrc不为null则可以支持一个通道多次invite
-        if (stream != null) {
-            key += (":" + stream);
-        }
-        return key;
+        return buildKey(type, deviceId, channelId, stream);
+    }
+
+    private void removeInviteCallbacks(InviteSessionType type, String deviceId, String channelId, String stream) {
+        String streamKey = buildKey(type, deviceId, channelId, stream);
+        String channelKey = buildKey(type, deviceId, channelId, null);
+        inviteErrorCallbackMap.remove(streamKey);
+        inviteErrorCallbackMap.remove(channelKey);
+        inviteErrorCallbackTimeMap.remove(streamKey);
+        inviteErrorCallbackTimeMap.remove(channelKey);
+    }
+
+    @Scheduled(fixedDelay = 30000)
+    public void removeExpiredInviteCallbacks() {
+        long timeout = Math.max(userSetting.getPlayTimeout() * 2L, 60000L);
+        long expireBefore = System.currentTimeMillis() - timeout;
+        inviteErrorCallbackTimeMap.entrySet().removeIf(entry -> entry.getValue() < expireBefore);
+        inviteErrorCallbackMap.keySet().removeIf(key -> !inviteErrorCallbackTimeMap.containsKey(key));
     }
 
     @Override

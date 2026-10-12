@@ -30,6 +30,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.TransactionDefinition;
 import org.springframework.transaction.TransactionStatus;
@@ -631,6 +632,53 @@ public class DeviceServiceImpl implements IDeviceService {
     @Override
     public List<Device> getAll() {
         return deviceMapper.getAll();
+    }
+
+    /**
+     * 定时对账设备在线状态
+     * 注册状态和设备心跳是两回事，这里以最后一次心跳时间为准做兜底检查，
+     * 避免动态过期任务丢失时设备一直显示在线，导致只看注册状态误判平台正常。
+     */
+    @Scheduled(fixedDelay = 60 * 1000)
+    public void syncDeviceOnlineStatus() {
+        List<Device> onlineDevices = deviceMapper.getOnlineDevices();
+        if (onlineDevices == null || onlineDevices.isEmpty()) {
+            return;
+        }
+        long now = System.currentTimeMillis();
+        for (Device device : onlineDevices) {
+            if (device == null || device.getDeviceId() == null) {
+                continue;
+            }
+            String keepaliveTime = device.getKeepaliveTime();
+            if (keepaliveTime == null || keepaliveTime.isEmpty()) {
+                if (device.getRegisterTime() != null) {
+                    try {
+                        if (expire(device)) {
+                            offline(device.getDeviceId(), "注册已过期(定时对账)");
+                        }
+                    } catch (Exception e) {
+                        logger.warn("[设备在线对账] 检查注册有效期失败 deviceId: {}, {}", device.getDeviceId(), e.getMessage());
+                    }
+                }
+                continue;
+            }
+            long lastKeepalive;
+            try {
+                lastKeepalive = DateUtil.yyyy_MM_dd_HH_mm_ssToTimestamp(keepaliveTime) * 1000L;
+            } catch (Exception e) {
+                logger.warn("[设备在线对账] 解析心跳时间失败 deviceId: {}, keepaliveTime: {}", device.getDeviceId(), keepaliveTime);
+                continue;
+            }
+            int interval = device.getKeepaliveIntervalTime() > 0 ? device.getKeepaliveIntervalTime() : 60;
+            // 容忍三次心跳间隔再增加30秒，与动态过期任务的判定保持一致
+            long maxSilence = interval * 3L * 1000L + 30000L;
+            if (now - lastKeepalive > maxSilence) {
+                logger.warn("[设备在线对账] 设备心跳超时，标记离线 deviceId: {}, 最后心跳: {}, 心跳间隔: {}s",
+                        device.getDeviceId(), keepaliveTime, interval);
+                offline(device.getDeviceId(), "心跳超时(定时对账)");
+            }
+        }
     }
 
 

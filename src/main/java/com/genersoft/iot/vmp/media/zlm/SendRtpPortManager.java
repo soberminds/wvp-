@@ -13,9 +13,9 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.support.atomic.RedisAtomicInteger;
 import org.springframework.stereotype.Component;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 @Component
 public class SendRtpPortManager {
@@ -39,12 +39,11 @@ public class SendRtpPortManager {
         String key = VideoManagerConstants.PLATFORM_SEND_RTP_INFO_PREFIX
                 + userSetting.getServerId() + "_*";
         List<Object> queryResult = RedisUtil.scan(redisTemplate, key);
-        Map<Integer, SendRtpItem> sendRtpItemMap = new HashMap<>();
-
+        Set<Integer> usedPorts = new HashSet<>();
         for (Object o : queryResult) {
             SendRtpItem sendRtpItem = (SendRtpItem) redisTemplate.opsForValue().get(o);
-            if (sendRtpItem != null) {
-                sendRtpItemMap.put(sendRtpItem.getLocalPort(), sendRtpItem);
+            if (sendRtpItem != null && sendRtpItem.getLocalPort() > 0) {
+                usedPorts.add(sendRtpItem.getLocalPort());
             }
         }
         String sendRtpPortRange = mediaServer.getSendRtpPortRange();
@@ -53,83 +52,50 @@ public class SendRtpPortManager {
         if (sendRtpPortRange != null) {
             String[] portArray = sendRtpPortRange.split(",");
             if (portArray.length != 2 || !NumberUtils.isParsable(portArray[0]) || !NumberUtils.isParsable(portArray[1])) {
-                logger.warn("{}发送端口配置格式错误，自动使用50000-60000作为端口范围", mediaServer.getId());
+                logger.warn("{}发送端口配置格式错误，自动使用50000-50799作为端口范围", mediaServer.getId());
                 startPort = 50000;
-                endPort = 60000;
+                endPort = 50799;
             }else {
                 if ( Integer.parseInt(portArray[1]) - Integer.parseInt(portArray[0]) < 1) {
-                    logger.warn("{}发送端口配置错误,结束端口至少比开始端口大一，自动使用50000-60000作为端口范围", mediaServer.getId());
+                    logger.warn("{}发送端口配置错误,结束端口至少比开始端口大一，自动使用50000-50799作为端口范围", mediaServer.getId());
                     startPort = 50000;
-                    endPort = 60000;
+                    endPort = 50799;
                 }else {
                     startPort = Integer.parseInt(portArray[0]);
                     endPort = Integer.parseInt(portArray[1]);
                 }
             }
         }else {
-            logger.warn("{}未设置发送端口默认值，自动使用50000-60000作为端口范围", mediaServer.getId());
+            logger.warn("{}未设置发送端口默认值，自动使用50000-50799作为端口范围", mediaServer.getId());
             startPort = 50000;
-            endPort = 60000;
+            endPort = 50799;
         }
         if (redisTemplate == null || redisTemplate.getConnectionFactory() == null) {
             logger.warn("{}获取redis连接信息失败", mediaServer.getId());
             return -1;
         }
-//        RedisAtomicInteger redisAtomicInteger = new RedisAtomicInteger(sendIndexKey , redisTemplate.getConnectionFactory());
-//        return redisAtomicInteger.getAndUpdate((current)->{
-//            return getPort(current, startPort, endPort, checkPort-> !sendRtpItemMap.containsKey(checkPort));
-//        });
-        return getSendPort(startPort, endPort, sendIndexKey, sendRtpItemMap);
+        RedisAtomicInteger redisAtomicInteger = new RedisAtomicInteger(sendIndexKey, redisTemplate.getConnectionFactory());
+        int selectedPort = findAvailablePort(startPort, endPort, redisAtomicInteger.get(), usedPorts);
+        if (selectedPort < 0) {
+            logger.error("[发送端口管理] 端口范围 {}-{} 已全部占用，mediaServer={}", startPort, endPort, mediaServer.getId());
+            return -1;
+        }
+        redisAtomicInteger.set(selectedPort >= endPort ? startPort : selectedPort + 1);
+        return selectedPort;
     }
 
-    private synchronized int getSendPort(int startPort, int endPort, String sendIndexKey, Map<Integer, SendRtpItem> sendRtpItemMap){
-        // TODO 这里改为只取偶数端口
-        RedisAtomicInteger redisAtomicInteger = new RedisAtomicInteger(sendIndexKey , redisTemplate.getConnectionFactory());
-        if (redisAtomicInteger.get() < startPort) {
-            redisAtomicInteger.set(startPort);
-            return startPort;
-        }else {
-            int port = redisAtomicInteger.getAndIncrement();
-            if (port > endPort) {
-                redisAtomicInteger.set(startPort);
-                if (sendRtpItemMap.containsKey(startPort)) {
-                    return getSendPort(startPort, endPort, sendIndexKey, sendRtpItemMap);
-                }else {
-                    return startPort;
-                }
-            }
-            if (sendRtpItemMap.containsKey(port)) {
-                return getSendPort(startPort, endPort, sendIndexKey, sendRtpItemMap);
-            }else {
-                return port;
-            }
+    static int findAvailablePort(int startPort, int endPort, int currentPort, Set<Integer> usedPorts) {
+        if (startPort <= 0 || endPort < startPort || endPort > 65535) {
+            return -1;
         }
-    }
-
-    interface CheckPortCallback{
-        boolean check(int port);
-    }
-
-    private int getPort(int current, int start, int end, CheckPortCallback checkPortCallback) {
-        if (current <= 0) {
-            if (start%2 == 0) {
-                current = start;
-            }else {
-                current = start + 1;
+        int candidate = currentPort < startPort || currentPort > endPort ? startPort : currentPort;
+        int rangeSize = endPort - startPort + 1;
+        for (int i = 0; i < rangeSize; i++) {
+            if (usedPorts == null || !usedPorts.contains(candidate)) {
+                return candidate;
             }
-        }else {
-            current += 2;
-            if (current > end) {
-                if (start%2 == 0) {
-                    current = start;
-                }else {
-                    current = start + 1;
-                }
-            }
+            candidate = candidate == endPort ? startPort : candidate + 1;
         }
-        if (!checkPortCallback.check(current)) {
-            return getPort(current + 2, start, end, checkPortCallback);
-        }
-        return current;
+        return -1;
     }
 }

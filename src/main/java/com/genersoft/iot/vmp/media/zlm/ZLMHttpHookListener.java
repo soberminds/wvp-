@@ -319,6 +319,8 @@ public class ZLMHttpHookListener {
             MediaSendRtpStoppedEvent event = new MediaSendRtpStoppedEvent(this);
             MediaServer mediaServerItem = mediaServerService.getOne(param.getMediaServerId());
             if (mediaServerItem != null) {
+                event.setApp(param.getApp());
+                event.setStream(param.getStream());
                 event.setMediaServer(mediaServerItem);
                 applicationEventPublisher.publishEvent(event);
             }
@@ -344,6 +346,7 @@ public class ZLMHttpHookListener {
             if (mediaServerItem != null) {
                 event.setMediaServer(mediaServerItem);
                 event.setApp("rtp");
+                event.setStream(param.getStream_id());
                 applicationEventPublisher.publishEvent(event);
             }
         }catch (Exception e) {

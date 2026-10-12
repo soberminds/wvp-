@@ -177,11 +177,14 @@ public class ZLMMediaNodeServerService implements IMediaNodeServerService {
         if (mediaList != null) {
             if (mediaList.getInteger("code") == 0) {
                 JSONArray data = mediaList.getJSONArray("data");
-                if (data == null) {
-                    return null;
+                if (data == null || data.isEmpty()) {
+                    return streamInfoList;
                 }
                 JSONObject mediaJSON = data.getJSONObject(0);
                 MediaInfo mediaInfo = MediaInfo.getInstance(mediaJSON, mediaServer);
+                if (mediaInfo == null) {
+                    return streamInfoList;
+                }
                 StreamInfo streamInfo = getStreamInfoByAppAndStream(mediaServer, app, stream, mediaInfo, callId, true);
                 if (streamInfo != null) {
                     streamInfoList.add(streamInfo);
@@ -210,7 +213,9 @@ public class ZLMMediaNodeServerService implements IMediaNodeServerService {
         streamInfoResult.setRtc(addr, mediaServer.getHttpPort(),mediaServer.getHttpSSlPort(), app,  stream, callIdParam, isPlay);
 
         streamInfoResult.setMediaInfo(mediaInfo);
-        streamInfoResult.setOriginType(mediaInfo.getOriginType());
+        if (mediaInfo != null) {
+            streamInfoResult.setOriginType(mediaInfo.getOriginType());
+        }
         return streamInfoResult;
     }
 
@@ -229,10 +234,14 @@ public class ZLMMediaNodeServerService implements IMediaNodeServerService {
     @Override
     public MediaInfo getMediaInfo(MediaServer mediaServer, String app, String stream) {
         JSONObject jsonObject = zlmresTfulUtils.getMediaInfo(mediaServer, app, "rtsp", stream);
-        if (jsonObject.getInteger("code") != 0) {
+        if (jsonObject == null || jsonObject.getInteger("code") == null || jsonObject.getInteger("code") != 0) {
             return null;
         }
-        return MediaInfo.getInstance(jsonObject, mediaServer);
+        JSONObject mediaData = jsonObject.getJSONObject("data");
+        if (mediaData == null) {
+            return null;
+        }
+        return MediaInfo.getInstance(mediaData, mediaServer);
     }
 
     @Override
